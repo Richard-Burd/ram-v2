@@ -75,9 +75,15 @@ export default function RootLayout({ children }) {
       <body
         className={`${averia.variable} ${nunito.variable} ${ptSerif.variable} ${roboto.variable} ${varelaRound.variable} antialiased`}
       >
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
+        <div className="bg-opacity-95 bg-zinc-700">
+          <div className="relative mx-auto sm:max-w-screen-lg lg:max-w-screen-lg lg:px-0">
+            <div className="bg-slate-100">
+              <Navbar />
+              <main>{children}</main>
+              <Footer />
+            </div>
+          </div>
+        </div>
       </body>
     </html>
   );
