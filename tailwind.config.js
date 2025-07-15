@@ -25,13 +25,20 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "gradient-24": "linear-gradient(24deg, var(--tw-gradient-stops))",
       },
-      listStyleType: {
-        square: "square",
-      },
       borderRadius: {
         "4xl": "2rem",
         "5xl": "2.5rem",
         "6xl": "3rem",
+      },
+      fontFamily: {
+        averia: "var(--font-averia)",
+        nunito: "var(--font-nunito)",
+        ptserif: "var(--font-pt-serif)",
+        roboto: "var(--font-roboto)",
+        varelaRound: "var(--font-varela-round)",
+      },
+      listStyleType: {
+        square: "square",
       },
     },
   },

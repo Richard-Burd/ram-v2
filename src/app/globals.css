@@ -22,5 +22,174 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-roboto), sans-serif;
 }
+
+.averia-font-400 {
+  font-family: var(--font-averia), serif;
+  font-weight: 400;
+}
+
+.averia-font-700 {
+  font-family: var(--font-averia), serif;
+  font-weight: 700;
+}
+
+.nunito-font-400 {
+  font-family: var(--font-nunito), sans-serif;
+  font-weight: 400;
+}
+
+.nunito-font-500 {
+  font-family: var(--font-nunito), sans-serif;
+  font-weight: 500;
+}
+
+.nunito-font-600 {
+  font-family: var(--font-nunito), sans-serif;
+  font-weight: 600;
+}
+
+.nunito-font-700 {
+  font-family: var(--font-nunito), sans-serif;
+  font-weight: 700;
+}
+
+.nunito-font-800 {
+  font-family: var(--font-nunito), sans-serif;
+  font-weight: 800;
+}
+
+.pt-serif-400 {
+  font-family: var(--font-pt-serif), serif;
+  font-weight: 400;
+}
+
+.pt-serif-700 {
+  font-family: var(--font-pt-serif), serif;
+  font-weight: 700;
+}
+
+.roboto-font-300 {
+  font-family: var(--font-roboto), sans-serif;
+  font-weight: 300;
+}
+
+.roboto-font-400 {
+  font-family: var(--font-roboto), sans-serif;
+  font-weight: 400;
+}
+
+.roboto-font-500 {
+  font-family: var(--font-roboto), sans-serif;
+  font-weight: 500;
+}
+
+.roboto-font-700 {
+  font-family: var(--font-roboto), sans-serif;
+  font-weight: 700;
+}
+
+.roboto-font-900 {
+  font-family: var(--font-roboto), sans-serif;
+  font-weight: 900;
+}
+
+/* Varela Round only supports a weight of 400 */
+.varela-round {
+  font-family: var(--font-varela-round), sans-serif;
+  font-weight: 400;
+}
+
+/* background fade on the landing page */
+.right-fade-10 {
+  background-image: linear-gradient(
+    270deg,
+    #871c20 0%,
+    #871c20 0%,
+    transparent 10%
+  );
+}
+
+/* background fade on the landing page */
+.left-fade-10 {
+  background-image: linear-gradient(
+    90deg,
+    #871c20 0%,
+    #871c20 0%,
+    transparent 10%
+  );
+}
+
+/* background fade on the landing page */
+.right-fade-17 {
+  background-image: linear-gradient(
+    270deg,
+    #871c20 0%,
+    #871c20 0%,
+    transparent 17%
+  );
+}
+
+/* background fade on the landing page */
+.left-fade-17 {
+  background-image: linear-gradient(
+    90deg,
+    #871c20 0%,
+    #871c20 0%,
+    transparent 17%
+  );
+}
+
+/* background fade on the landing page */
+.right-fade-23 {
+  background-image: linear-gradient(
+    270deg,
+    #871c20 0%,
+    #871c20 0%,
+    transparent 23%
+  );
+}
+
+/* background fade on the landing page */
+.left-fade-23 {
+  background-image: linear-gradient(
+    90deg,
+    #871c20 0%,
+    #871c20 0%,
+    transparent 23%
+  );
+}
+
+.list-alpha-upper {
+  list-style-type: upper-alpha;
+}
+
+/* ************************************************************ */
+/* ************************************************************ */
+/* ************************************************************ */
+/* This should be removed or revised down the line */
+/* This lets an alphaneumaric list start with an 'H' instead of and 'A' */
+/* This was made during the 'move-fast-and-break-things phase */
+
+/* Start of specialized ordering for /pages/studies/methodology */
+.list-alpha-upper-h {
+  list-style-type: none; /* Remove default numbering */
+  counter-reset: list-counter 7; /* Start at 'H' */
+  padding-left: 1em; /* Adjust as needed */
+}
+
+.list-alpha-upper-h li {
+  counter-increment: list-counter;
+  position: relative;
+}
+
+.list-alpha-upper-h li::before {
+  content: counter(list-counter, upper-alpha) ". ";
+  position: absolute;
+  left: -1.3em; /* Same as padding-left of the list */
+}
+/* End of specialized ordering for /pages/studies/methodology */
+/* ************************************************************ */
+/* ************************************************************ */
+/* ************************************************************ */
