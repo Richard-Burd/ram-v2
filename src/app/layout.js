@@ -7,6 +7,9 @@ import {
 } from "next/font/google";
 import "./globals.css";
 
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
 // Import Averia Serif Libre from Google Fonts
 const averia = Averia_Serif_Libre({
   weight: ["400"],
@@ -42,10 +45,28 @@ const varelaRound = Varela_Round({
   variable: "--font-varela-round",
 });
 
+const IMAGES_URI_PATH = process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH;
+
 export const metadata = {
   title: "Recycling Advocates of Middle Tennessee",
   description:
     "RAM is a research and education-based group of citizens which advocates for the development of recycling techniques which foster industrial improvement, new jobs, prosperity, awareness, health, a cleaner environment, and the elimination of landfilling.",
+  icons: {
+    icon: "/favicon.ico",
+  },
+  openGraph: {
+    images: [
+      {
+        url: `${IMAGES_URI_PATH}/ram-open-graph-image.png`,
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: [`${IMAGES_URI_PATH}/ram-open-graph-image.png`],
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -54,7 +75,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${averia.variable} ${nunito.variable} ${ptSerif.variable} ${roboto.variable} ${varelaRound.variable} antialiased`}
       >
-        {children}
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
