@@ -3,15 +3,18 @@ import { motion } from "motion/react";
 
 import { usePathname } from "next/navigation";
 
-export default function NavbarButton({ title, bgColor }) {
+export default function NavbarButton({ title, buttonColor, buttonBackground }) {
   // state machine to track location in heirarchy
   const pathname = usePathname();
   const isActive = pathname.includes(title.toLowerCase().replace(/ /g, "-"));
+  const activeButton = isActive
+    ? `-mx-1 -my-2 px-1 py-2 ${buttonBackground}`
+    : null;
 
   return (
-    <div>
+    <div className={`${activeButton}`}>
       <motion.div
-        className={`${bgColor} rounded-full shadow-white`}
+        className={`${buttonColor} rounded-full shadow-white`}
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         whileHover={{
@@ -21,7 +24,7 @@ export default function NavbarButton({ title, bgColor }) {
         }}
         transition={{ duration: 0.2 }}
       >
-        <div className="shadow-lower-right-offset rounded-full">
+        <div className="rounded-full shadow-[2px_4px_7px_rgba(0,0,0,0.95)]">
           <div className="pt-serif-700 text-opacity-80 pr-3 pl-2 text-center text-2xl text-black uppercase italic">
             {title}
           </div>

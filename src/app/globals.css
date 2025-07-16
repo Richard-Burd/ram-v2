@@ -10,12 +10,17 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --color-homeBg: #d63e49;
-  --color-aboutBg: #d67736;
-  --color-studiesBg: #d4d938;
-  --color-outreachBg: #35db46;
-  --color-successesBg: #26b1e0;
-  --color-organizingBg: #a75ee0;
+  --color-homeButton: #d63e49;
+  --color-aboutButton: #d67736;
+  --color-studiesButton: #d4d938;
+  --color-outreachButton: #35db46;
+  --color-successesButton: #26b1e0;
+  --color-organizingButton: #a75ee0;
+  --color-aboutBackground: #f3d6c2;
+  --color-studiesBackground: #f2f4c3;
+  --color-outreachBackground: #c2f4c7;
+  --color-successesBackground: #bce6f5;
+  --color-organizingBackground: #e4cef6;
 }
 
 @media (prefers-color-scheme: dark) {

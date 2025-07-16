@@ -4,9 +4,11 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
+      // this isn't working on NavbarButton.js, consider deleting
       boxShadow: {
         // right bottom blur  spread color
         "lower-right-offset": "2px 4px 7px rgba(0, 0, 0, 0.95)",
