@@ -9,6 +9,7 @@ import "./globals.css";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Construction from "./components/Construction";
 
 // Import Averia Serif Libre from Google Fonts
 const averia = Averia_Serif_Libre({
@@ -81,6 +82,7 @@ export default function RootLayout({ children }) {
               <Navbar />
               <main>{children}</main>
               <Footer />
+              <Construction />
             </div>
           </div>
         </div>
