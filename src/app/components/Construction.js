@@ -12,14 +12,20 @@ export default function Construction() {
       </div>
       <div className="p-8 text-2xl">
         Here is a page with different{" "}
-        <Link className="font-semibold text-blue-700 underline" href="/fonts">
+        <Link
+          className="font-semibold text-blue-700 underline"
+          href="/construction/fonts"
+        >
           fonts
         </Link>{" "}
         that we can use on this website
       </div>
       <div className="px-8 pb-10 text-2xl">
         📚 Here is the{" "}
-        <Link className="font-semibold text-blue-700 underline" href="/docs">
+        <Link
+          className="font-semibold text-blue-700 underline"
+          href="/construction/docs"
+        >
           doc library
         </Link>{" "}
         that contains all documents scanned in by Lee. 📄
@@ -28,7 +34,7 @@ export default function Construction() {
         🖼️ Here is the{" "}
         <Link
           className="font-semibold text-blue-700 underline"
-          href="/figures-richard"
+          href="/construction/figures-richard"
         >
           figure gallery
         </Link>{" "}
@@ -38,7 +44,7 @@ export default function Construction() {
         🚗 This{" "}
         <Link
           className="font-semibold text-blue-700 underline"
-          href="/parking-lot"
+          href="/construction/parking-lot"
         >
           parking lot
         </Link>{" "}

@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function LibrarycardCatalog({ fileName, leeTitle = "" }) {
@@ -14,7 +13,7 @@ export default function LibrarycardCatalog({ fileName, leeTitle = "" }) {
           <table className="table-auto border-none">
             <tbody>
               <tr>
-                <td className="averia-700 w-32 align-top text-red-800 italic">
+                <td className="averia-font-700 w-32 align-top text-red-800 italic">
                   {fileName}
                 </td>
                 <td className="roboto-font-400 border border-none align-top font-bold text-blue-700">
