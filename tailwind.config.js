@@ -31,6 +31,7 @@ module.exports = {
         ptserif: "var(--font-pt-serif)",
         roboto: "var(--font-roboto)",
         varelaRound: "var(--font-varela-round)",
+        youngSerif: "var(--font-young-serif)",
       },
       listStyleType: {
         square: "square",

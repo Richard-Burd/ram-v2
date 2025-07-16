@@ -112,6 +112,12 @@ body {
   font-weight: 400;
 }
 
+/* Young-Serif only supports a weight of 400 */
+.young-serif-font {
+  font-family: var(--font-young-serif), serif;
+  font-weight: 400;
+}
+
 /* background fade on the landing page */
 .right-fade-10 {
   background-image: linear-gradient(

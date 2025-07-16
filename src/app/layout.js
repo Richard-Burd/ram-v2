@@ -4,6 +4,7 @@ import {
   Averia_Serif_Libre,
   Varela_Round,
   Nunito,
+  Young_Serif,
 } from "next/font/google";
 import "./globals.css";
 
@@ -46,6 +47,13 @@ const varelaRound = Varela_Round({
   variable: "--font-varela-round",
 });
 
+// Import Young-Serif from Google Fonts
+const youngSerif = Young_Serif({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-young-serif",
+});
+
 const IMAGES_URI_PATH = process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH;
 
 export const metadata = {
@@ -74,7 +82,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${averia.variable} ${nunito.variable} ${ptSerif.variable} ${roboto.variable} ${varelaRound.variable} antialiased`}
+        className={`${averia.variable} ${nunito.variable} ${ptSerif.variable} ${roboto.variable} ${varelaRound.variable} ${youngSerif.variable} antialiased`}
       >
         <div className="bg-opacity-95 bg-zinc-700">
           <div className="relative mx-auto sm:max-w-screen-lg lg:max-w-screen-lg lg:px-0">
