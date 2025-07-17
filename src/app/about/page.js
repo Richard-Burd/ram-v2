@@ -11,6 +11,7 @@ export const metadata = {
 
 export const primaryHierarchyProps = {
   buttonColor: "bg-aboutButton",
+  buttonBackground: "bg-aboutBackground",
   titles: ["Mission Statement", "Brief History", "Longer History", "Bios"],
   path: "/about",
   topMarginForEachHierarchyButton: `mt-7`,

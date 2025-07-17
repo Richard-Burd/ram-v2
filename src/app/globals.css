@@ -21,6 +21,11 @@
   --color-outreachBackground: #c2f4c7;
   --color-successesBackground: #bce6f5;
   --color-organizingBackground: #e4cef6;
+
+  /* Custom border radius values */
+  --radius-4xl: 2rem;
+  --radius-5xl: 2.5rem;
+  --radius-6xl: 3rem;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -13,11 +13,7 @@ module.exports = {
         pink: "#FF69B4",
         orange: "#FFA500",
       },
-      borderRadius: {
-        "4xl": "2rem",
-        "5xl": "2.5rem",
-        "6xl": "3rem",
-      },
+
       fontFamily: {
         averia: "var(--font-averia)",
         nunito: "var(--font-nunito)",
