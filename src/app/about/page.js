@@ -12,7 +12,6 @@ export const metadata = {
 };
 
 export const primaryHierarchyProps = {
-  // bgColor: "bg-[#ff8938]",
   buttonColor: "bg-aboutButton",
   titles: ["Mission Statement", "Brief History", "Longer History", "Bios"],
   path: "/about",
