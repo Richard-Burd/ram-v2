@@ -1,6 +1,5 @@
-import Head from "next/head";
 import SecondaryNavbar from "@/app/components/SecondaryNavbar";
-// import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
+import FragmentIdentifierNavbar from "@/app/components/FragmentIdentifierNavbar";
 import SocialMediaIcon from "@/app/components/SocialMediaIcon";
 import { primaryHierarchyProps } from "@/app/about/page";
 
@@ -10,8 +9,8 @@ const socialMediaIconProps = {
 };
 
 export const secondaryHierarchyProps = {
-  // bgColor: "bg-[#ff8938]",
-  bgColor: "bg-aboutBg",
+  buttonColor: "bg-aboutButton",
+  buttonBackground: "bg-aboutBackground",
   titles: [
     "John van der Harst",
     "Karen Cisler",
@@ -24,7 +23,6 @@ export const secondaryHierarchyProps = {
     "Catherine Murray",
     "Lee Nelson",
     "Richard Burd",
-    // new names added for extended bios
     "Anna Haislip",
     "Andrew Evans",
     "A. C. (Sandy) Loyd",
@@ -49,21 +47,19 @@ export const secondaryHierarchyProps = {
   path: "/about/bios",
 };
 
+export const metadata = {
+  title: "RAM Biographies",
+  description: "team, bio, background, about us, biography, persons",
+};
+
 export default function Bios() {
   const crewDescriptionTestLayoutStyles =
     "columns-1 md:columns-2 lg:columns-3 my-7 standard-font-3 text-justify text-lg";
   return (
     <div>
-      <Head>
-        <title>RAM Biographys</title>
-        <meta
-          name="keywords"
-          content="team, bio, background, about us, biography, persons"
-        />
-      </Head>
       <div className="bg-gradient-to-l from-[#b8580b] to-[#120700] pb-72 text-zinc-300">
         <SecondaryNavbar {...primaryHierarchyProps} />
-        {/* <FragmentIdentifierNavbar {...secondaryHierarchyProps} /> */}
+        <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
         <div
           id="title-and-text-box"
           className="rounded-6xl m-11 bg-neutral-950 p-6"
