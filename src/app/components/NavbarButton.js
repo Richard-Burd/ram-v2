@@ -25,7 +25,7 @@ export default function NavbarButton({ title, buttonColor, buttonBackground }) {
         transition={{ duration: 0.2 }}
       >
         <div className="rounded-full shadow-[2px_4px_7px_rgba(0,0,0,0.95)]">
-          <div className="pt-serif-700 text-opacity-80 pr-3 pl-2 text-center text-2xl text-black uppercase italic">
+          <div className="pt-serif-700 pr-3 pl-2 text-center text-2xl text-black/80 uppercase italic">
             {title}
           </div>
         </div>

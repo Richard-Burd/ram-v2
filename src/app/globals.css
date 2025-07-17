@@ -46,29 +46,10 @@ body {
   font-weight: 700;
 }
 
-.nunito-font-400 {
-  font-family: var(--font-nunito), sans-serif;
-  font-weight: 400;
-}
-
-.nunito-font-500 {
-  font-family: var(--font-nunito), sans-serif;
-  font-weight: 500;
-}
-
-.nunito-font-600 {
-  font-family: var(--font-nunito), sans-serif;
-  font-weight: 600;
-}
-
+/* Nunito only supports a weight of 700 */
 .nunito-font-700 {
   font-family: var(--font-nunito), sans-serif;
   font-weight: 700;
-}
-
-.nunito-font-800 {
-  font-family: var(--font-nunito), sans-serif;
-  font-weight: 800;
 }
 
 .pt-serif-400 {
@@ -176,6 +157,31 @@ body {
     #871c20 0%,
     transparent 23%
   );
+}
+
+/* Background fade on the About page */
+.about-page-background-gradient {
+  background: linear-gradient(24deg, #120700 52%, #b8580b 100%);
+}
+
+/* Background fade on the Studies page */
+.studies-page-background-gradient {
+  background: linear-gradient(24deg, #0f0f00 52%, #898400 100%);
+}
+
+/* Background fade on the Outreach page */
+.outreach-page-background-gradient {
+  background: linear-gradient(24deg, #08120b 52%, #14983c 100%);
+}
+
+/* Background fade on the Successes page */
+.successes-page-background-gradient {
+  background: linear-gradient(24deg, #000000 52%, #225293 100%);
+}
+
+/* Background fade on the Organizing page */
+.organizing-page-background-gradient {
+  background: linear-gradient(24deg, #0b041c 52%, #581faa 100%);
 }
 
 .list-alpha-upper {
