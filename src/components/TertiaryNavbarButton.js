@@ -17,7 +17,7 @@ export default function TertiaryNavbarButton({
   // Apply conditional styling based on isActive
   const behindButtonStyle = isActive ? `-my-2 py-2 -mx-1 px-1 bg-white` : null;
   const buttonStyle = isActive
-    ? `-my-2 py-2 -mx-1 px-1 ${buttonBackground} bg-opacity-30`
+    ? `-my-2 py-2 -mx-1 px-1 ${buttonBackground}`
     : null;
 
   return (
@@ -35,7 +35,7 @@ export default function TertiaryNavbarButton({
           <div
             className={`${buttonColor} rounded-lg shadow-[2px_4px_7px_rgba(0,0,0,0.95)]`}
           >
-            <div className="roboto-font-500 text-opacity-80 px-3 text-center text-xl text-black">
+            <div className="roboto-font-500 px-3 text-center text-xl text-[#0a2c0e]">
               {formattedTitle}
             </div>
           </div>

@@ -60,7 +60,7 @@ export default function Document({
             <div id="document-label">
               {fileLabel && (
                 <div className="absolute right-0 bottom-0 left-0 z-20 translate-x-3">
-                  <div className="young-serif-font text-opacity-90 text-3xl font-semibold text-red-800 italic">
+                  <div className="young-serif-font text-3xl font-semibold text-red-800/90 italic">
                     {fileName}
                   </div>
                 </div>

@@ -41,7 +41,7 @@ export default function BrochureFig({
           {figureNumber && (
             <div className="child-2">
               <div className="absolute z-20 translate-x-12 -translate-y-44">
-                <div className="young-serif-font text-opacity-90 relative text-8xl text-red-800 italic">
+                <div className="young-serif-font relative text-8xl text-red-800/90 italic">
                   {figureNumber}
                 </div>
               </div>

@@ -40,7 +40,7 @@ export default function SecondaryMastHead({
                       transition={{ duration: 0.25 }}
                     >
                       <div
-                        className={`roboto-font-500 text-opacity-90 m-2 p-2 text-4xl text-black`}
+                        className={`roboto-font-500 text-opacity-90 m-2 p-2 text-4xl text-[#0a2c0e]`}
                       >
                         {title}
                       </div>

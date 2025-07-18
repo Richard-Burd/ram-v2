@@ -67,7 +67,7 @@ export default function Figure({
         {fileLabel && (
           <div className="child-1">
             <div className="absolute z-20 translate-x-12 -translate-y-44">
-              <div className="young-serif-font text-opacity-80 relative text-7xl text-red-800 italic">
+              <div className="young-serif-font relative text-7xl text-red-800/90 italic">
                 {fileName}
               </div>
             </div>
