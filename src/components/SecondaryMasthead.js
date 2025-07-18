@@ -14,7 +14,7 @@ export default function SecondaryMastHead({
   return (
     <div>
       <div
-        className={`${titleColor} pt-serif-700 pt-12 pb-14 text-center text-7xl italic`}
+        className={`${titleColor} pt-serif-font-700 pt-12 pb-14 text-center text-7xl italic`}
       >
         {title}
       </div>

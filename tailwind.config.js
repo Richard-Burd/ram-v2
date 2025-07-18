@@ -19,7 +19,7 @@ module.exports = {
         nunito: "var(--font-nunito)",
         ptserif: "var(--font-pt-serif)",
         roboto: "var(--font-roboto)",
-        varelaRound: "var(--font-varela-round)",
+        varelaRound: "var(--font-varela-round-font)",
         youngSerif: "var(--font-young-serif)",
       },
       listStyleType: {

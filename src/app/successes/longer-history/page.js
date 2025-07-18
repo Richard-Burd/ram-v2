@@ -10,13 +10,13 @@ export default function LongHistory() {
           id="title-and-text-box"
           className="rounded-6xl m-11 bg-neutral-950 p-8"
         >
-          <div className="pt-serif-700 my-4 py-4 text-center text-5xl text-[#bfe6ff] italic">
+          <div className="pt-serif-font-700 my-4 py-4 text-center text-5xl text-[#bfe6ff] italic">
             <div className="pb-4">Longer History of</div>
             <div>
               Some <i>RAM</i> Successes
             </div>
           </div>
-          <div className="mx-12 text-2xl">
+          <div className="roboto-font-400 mx-12 text-2xl">
             <ol className="list-outside list-decimal">
               <li id="1" className="py-5">
                 Set a high standard for studying issues by touring over 200

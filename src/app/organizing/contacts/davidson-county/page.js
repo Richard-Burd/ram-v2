@@ -20,7 +20,7 @@ export default function John() {
           id="title-and-text-box"
           className="rounded-6xl m-11 bg-neutral-950 p-6"
         >
-          <div className="pt-serif-700 m-4 p-4 text-center text-7xl text-[#d4bfff] italic">
+          <div className="pt-serif-font-700 m-4 p-4 text-center text-7xl text-[#d4bfff] italic">
             John van der Harst
           </div>
           <div className="border-b-2 border-zinc-700 pt-6"></div>

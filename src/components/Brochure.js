@@ -21,7 +21,7 @@ export default function Brochure({
           >
             {(title || description) && (
               <div className="">
-                <div className="pt-serif-700 border-b-2 border-b-gray-900 pb-5 text-center text-2xl italic">
+                <div className="pt-serif-font-700 border-b-2 border-b-gray-900 pb-5 text-center text-2xl italic">
                   {title}
                 </div>
                 <div className="averia-font-400 py-4">{description}</div>

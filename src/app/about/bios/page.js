@@ -64,7 +64,7 @@ export default function Bios() {
           id="title-and-text-box"
           className="rounded-6xl m-11 bg-neutral-950 p-6"
         >
-          <div className="pt-serif-700 m-4 p-4 text-center text-5xl text-[#ffe9bf] italic">
+          <div className="pt-serif-font-700 m-4 p-4 text-center text-5xl text-[#ffe9bf] italic">
             Some Notable RAM Members
           </div>
 
@@ -597,7 +597,7 @@ export default function Bios() {
             </center>
           </div>
 
-          <div className="pt-serif-700 m-4 mt-40 p-4 text-center text-5xl text-[#ffe9bf] italic">
+          <div className="pt-serif-font-700 m-4 mt-40 p-4 text-center text-5xl text-[#ffe9bf] italic">
             Some Notable Past RAM Members
           </div>
 

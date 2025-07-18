@@ -44,64 +44,76 @@ body {
 .averia-font-400 {
   font-family: var(--font-averia), serif;
   font-weight: 400;
+  letter-spacing: 0.2px;
 }
 
 .averia-font-700 {
   font-family: var(--font-averia), serif;
   font-weight: 700;
+  letter-spacing: 0.2px;
 }
 
 /* Nunito only supports a weight of 700 */
 .nunito-font-700 {
   font-family: var(--font-nunito), sans-serif;
   font-weight: 700;
+  letter-spacing: 0.2px;
 }
 
-.pt-serif-400 {
+.pt-serif-font-400 {
   font-family: var(--font-pt-serif), serif;
   font-weight: 400;
+  letter-spacing: 0.2px;
 }
 
-.pt-serif-700 {
+.pt-serif-font-700 {
   font-family: var(--font-pt-serif), serif;
   font-weight: 700;
+  letter-spacing: 0.2px;
 }
 
 .roboto-font-300 {
   font-family: var(--font-roboto), sans-serif;
   font-weight: 300;
+  letter-spacing: 0.2px;
 }
 
 .roboto-font-400 {
   font-family: var(--font-roboto), sans-serif;
   font-weight: 400;
+  letter-spacing: 0.2px;
 }
 
 .roboto-font-500 {
   font-family: var(--font-roboto), sans-serif;
   font-weight: 500;
+  letter-spacing: 0.2px;
 }
 
 .roboto-font-700 {
   font-family: var(--font-roboto), sans-serif;
   font-weight: 700;
+  letter-spacing: 0.2px;
 }
 
 .roboto-font-900 {
   font-family: var(--font-roboto), sans-serif;
   font-weight: 900;
+  letter-spacing: 0.2px;
 }
 
 /* Varela Round only supports a weight of 400 */
-.varela-round {
-  font-family: var(--font-varela-round), sans-serif;
+.varela-round-font {
+  font-family: var(--font-varela-round-font), sans-serif;
   font-weight: 400;
+  letter-spacing: 0.2px;
 }
 
 /* Young-Serif only supports a weight of 400 */
 .young-serif-font {
   font-family: var(--font-young-serif), serif;
   font-weight: 400;
+  letter-spacing: 0.2px;
 }
 
 /* background fade on the landing page */

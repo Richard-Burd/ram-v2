@@ -18,11 +18,11 @@ export default function Brochures() {
       <SecondaryNavbar {...primaryHierarchyProps} />
       <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
-        <div className="pt-serif-700 p-8 text-center text-7xl text-[#c2ffbf] italic">
+        <div className="pt-serif-font-700 p-8 text-center text-7xl text-[#c2ffbf] italic">
           Brochures
         </div>
         <div id="printable-brochures">
-          <div className="pt-serif-700 mx-6 mt-2 border-b-2 border-zinc-100 text-4xl tracking-wider text-zinc-100 italic opacity-95">
+          <div className="pt-serif-font-700 mx-6 mt-2 border-b-2 border-zinc-100 text-4xl tracking-wider text-zinc-100 italic opacity-95">
             Printable Brochures
           </div>
           <div className="ml-1 flex">
@@ -41,7 +41,7 @@ export default function Brochures() {
           </div>
         </div>
         <div id="brochure-exhibits">
-          <div className="pt-serif-700 mx-6 mt-2 border-b-2 border-zinc-100 pt-32 text-4xl tracking-wider text-zinc-100 italic">
+          <div className="pt-serif-font-700 mx-6 mt-2 border-b-2 border-zinc-100 pt-32 text-4xl tracking-wider text-zinc-100 italic">
             Brochure Exhibits
           </div>
           <div className="roboto-font-400 rounded-6xl bg-opacity-70 m-6 bg-[#b8d1c8] px-6 pt-12 pb-16 text-2xl text-zinc-950">

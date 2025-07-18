@@ -11,12 +11,12 @@ export default function CurrentCampaigns() {
           id="title-and-text-box"
           className="rounded-6xl m-11 bg-neutral-950 p-8"
         >
-          <div className="pt-serif-700 my-4 py-4 text-center text-5xl text-[#bfe6ff] italic">
+          <div className="pt-serif-font-700 my-4 py-4 text-center text-5xl text-[#bfe6ff] italic">
             Current Campaigns
           </div>
-          <div className="mx-4 text-2xl">
+          <div className="roboto-font-400 mx-4 text-2xl">
             <p className="mb-8">
-              First, RAM needs to maintain what it has proven good at --
+              First, <i>RAM</i> needs to maintain what it has proven good at --
               delivering solutions, as needs arise. Continue with two primary
               focuses that have worked so far:
             </p>

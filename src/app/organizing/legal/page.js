@@ -16,10 +16,10 @@ export default function Legal() {
           id="title-and-text-box"
           className="rounded-6xl m-11 bg-neutral-950 p-6"
         >
-          <div className="pt-serif-700 m-4 mt-8 p-4 text-center text-7xl text-[#d4bfff] italic">
+          <div className="pt-serif-font-700 m-4 mt-8 p-4 text-center text-7xl text-[#d4bfff] italic">
             Legal
           </div>
-          <div className="container mx-auto px-4">
+          <div className="roboto-font-400 container mx-auto px-4">
             <div id="section-1" className="mx-8 my-8 text-2xl">
               <div className="title font-semibold underline">
                 Annual Reports

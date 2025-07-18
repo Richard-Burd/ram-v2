@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TextLink from "@/components/TextLink";
 
 import SecondaryNavbar from "@/components/SecondaryNavbar";
 import { primaryHierarchyProps } from "@/app/successes/page";
@@ -12,27 +13,18 @@ export default function InitialAims() {
           id="title-and-text-box"
           className="rounded-6xl m-11 bg-neutral-950 p-8"
         >
-          <div className="pt-serif-700 my-4 py-4 text-center text-5xl text-[#bfe6ff] italic">
+          <div className="pt-serif-font-700 my-4 py-4 text-center text-5xl text-[#bfe6ff] italic">
             Initial Aims
           </div>
-          <div className="mx-4 text-2xl">
+          <div className="roboto-font-400 mx-4 text-2xl">
             <p className="mb-8">
               Of the list of Successes on the{" "}
-              <Link
-                href="/successes/brief-history"
-                className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
-                // target="_blank"
-              >
-                <strong>Brief History</strong>
-              </Link>{" "}
+              <TextLink link="/successes/Brief-history" text="Brief History" />{" "}
               and{" "}
-              <Link
-                href="/successes/longer-history"
-                className="text-blue-300 transition duration-500 hover:text-red-900 hover:underline focus:text-red-900 focus:underline"
-                // target="_blank"
-              >
-                <strong>Longer History</strong>
-              </Link>{" "}
+              <TextLink
+                link="/successes/Longer-history"
+                text="Longer History"
+              />{" "}
               pages (both with identical numbering), only numbers 1, 2, 3, 9,
               and 12 were already being worked on -- and most of these just
               beginning to be -- when <i>RAM</i> was forming in late 1992.

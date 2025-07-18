@@ -30,7 +30,7 @@ export default function Travels() {
           id="title-and-text-box"
           className="rounded-6xl m-11 bg-neutral-950 p-8"
         >
-          <div className="pt-serif-700 my-4 py-4 text-center text-6xl text-[#fcffbf] italic">
+          <div className="pt-serif-font-700 my-4 py-4 text-center text-6xl text-[#fcffbf] italic">
             Travels
           </div>
 

@@ -10,10 +10,10 @@ export default function LongerHistory() {
           id="title-and-text-box"
           className="rounded-6xl m-11 bg-neutral-950 p-8"
         >
-          <div className="pt-serif-700 m-4 p-4 text-center text-7xl text-[#ffe9bf] italic">
+          <div className="pt-serif-font-700 m-4 p-4 text-center text-7xl text-[#ffe9bf] italic">
             Longer History
           </div>
-          <div id="line-1" className="mx-8 my-14 text-2xl">
+          <div id="line-1" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">Late 1992</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -25,7 +25,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-2" className="mx-8 my-14 text-2xl">
+          <div id="line-2" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">1993</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -52,7 +52,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-3" className="mx-8 my-14 text-2xl">
+          <div id="line-3" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">1994</div>
             <div className="paragraph">
               <p className="mb-3">Second newsletter</p>
@@ -63,7 +63,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-4" className="mx-8 my-14 text-2xl">
+          <div id="line-4" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">1995</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -74,7 +74,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-5" className="mx-8 my-14 text-2xl">
+          <div id="line-5" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">1996</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -91,7 +91,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-6" className="mx-8 my-14 text-2xl">
+          <div id="line-6" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">1997</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -116,7 +116,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-7" className="mx-8 my-14 text-2xl">
+          <div id="line-7" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">1998</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -126,7 +126,7 @@ export default function LongerHistory() {
               <p className="mb-3">John sues AAR et al for damages.</p>
             </div>
           </div>
-          <div id="line-8" className="mx-8 my-14 text-2xl">
+          <div id="line-8" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">1999</div>
             <div className="paragraph">
               AAR et al gets a new attorney, who sues John in federal court,
@@ -134,19 +134,19 @@ export default function LongerHistory() {
               AAR&apos;s treated ash.
             </div>
           </div>
-          <div id="line-9" className="mx-8 my-14 text-2xl">
+          <div id="line-9" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2000</div>
             <div className="paragraph">
               AAR et al and John both drop their lawsuits.
             </div>
           </div>
-          <div id="line-10" className="mx-8 my-14 text-2xl">
+          <div id="line-10" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2001</div>
             <div className="paragraph">
               AAR declines to alter their treated ash product.
             </div>
           </div>
-          <div id="line-11" className="mx-8 my-14 text-2xl">
+          <div id="line-11" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2002</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -169,7 +169,7 @@ export default function LongerHistory() {
               <p className="mb-3">The York Daily Record profiles John.</p>
             </div>
           </div>
-          <div id="line-12" className="mx-8 my-14 text-2xl">
+          <div id="line-12" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2003</div>
             <div className="paragraph">
               Cliff Vaughn Interviews John and others about his work with{" "}
@@ -177,7 +177,7 @@ export default function LongerHistory() {
               Documentary.
             </div>
           </div>
-          <div id="line-13" className="mx-8 my-14 text-2xl">
+          <div id="line-13" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2004</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -192,7 +192,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-14" className="mx-8 my-14 text-2xl">
+          <div id="line-14" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2005</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -206,7 +206,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-15" className="mx-8 my-14 text-2xl">
+          <div id="line-15" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2006</div>
             <div className="paragraph">
               Leslie Allen and John ramp up food salvage activities after
@@ -214,7 +214,7 @@ export default function LongerHistory() {
               Sullivan demonstrate maturity for that type of operation.
             </div>
           </div>
-          <div id="line-16" className="mx-8 my-14 text-2xl">
+          <div id="line-16" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2007</div>
             <div className="paragraph">
               Rutherford County activists draw attention to low-level nuclear
@@ -222,7 +222,7 @@ export default function LongerHistory() {
               efforts to promote more material recovery there fail.
             </div>
           </div>
-          <div id="line-17" className="mx-8 my-14 text-2xl">
+          <div id="line-17" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2008-2011</div>
             <div className="paragraph">
               <i>RAM&apos;s</i> John van der Harst is honored by having his bio
@@ -231,7 +231,7 @@ export default function LongerHistory() {
               Engineering, in 2011.
             </div>
           </div>
-          <div id="line-18" className="mx-8 my-14 text-2xl">
+          <div id="line-18" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2011</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -254,7 +254,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-19" className="mx-8 my-14 text-2xl">
+          <div id="line-19" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2012</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -283,7 +283,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-20" className="mx-8 my-14 text-2xl">
+          <div id="line-20" className="roboto-font-400mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2013</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -294,7 +294,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-21" className="mx-8 my-14 text-2xl">
+          <div id="line-21" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2014</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -314,7 +314,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-22" className="mx-8 my-14 text-2xl">
+          <div id="line-22" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2015</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -328,7 +328,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-23" className="mx-8 my-14 text-2xl">
+          <div id="line-23" className="roboto-font-400mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2016</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -349,7 +349,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-24" className="mx-8 my-14 text-2xl">
+          <div id="line-24" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2017</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -368,7 +368,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-25" className="mx-8 my-14 text-2xl">
+          <div id="line-25" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2018</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -386,7 +386,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-26" className="mx-8 my-14 text-2xl">
+          <div id="line-26" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2019</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -405,14 +405,14 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-27" className="mx-8 my-14 text-2xl">
+          <div id="line-27" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2020</div>
             <div className="paragraph">
               Urban Cruise Ship decides to become broad in their coverage, and
               creates 9 sites. One is about Waste.
             </div>
           </div>
-          <div id="line-28" className="mx-8 my-14 text-2xl">
+          <div id="line-28" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2021-2023</div>
             <div className="paragraph">
               <p className="mb-3">
@@ -423,7 +423,7 @@ export default function LongerHistory() {
               </p>
             </div>
           </div>
-          <div id="line-29" className="mx-8 my-14 text-2xl">
+          <div id="line-29" className="roboto-font-400 mx-8 my-14 text-2xl">
             <div className="title font-semibold underline">2023</div>
             <div className="paragraph">
               Urban Cruise Ship decides it is in their best interest to provide

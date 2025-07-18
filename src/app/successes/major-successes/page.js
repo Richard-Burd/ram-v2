@@ -25,13 +25,13 @@ export default function MajorSuccesses() {
           id="title-and-text-box"
           className="rounded-6xl m-11 bg-neutral-950 p-8"
         >
-          <div className="pt-serif-700 my-4 py-4 text-center text-5xl text-[#bfe6ff] italic">
+          <div className="pt-serif-font-700 my-4 py-4 text-center text-5xl text-[#bfe6ff] italic">
             Major Successes
           </div>
 
           <div
             id="internalizing-externalized-material-recovery-benefits-and-disposal-costs"
-            className="mx-4 mb-24 pt-4 text-2xl"
+            className="roboto-font-400 mx-4 mb-24 pt-4 text-2xl"
           >
             <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Internalizing externalized material recovery benefits and disposal

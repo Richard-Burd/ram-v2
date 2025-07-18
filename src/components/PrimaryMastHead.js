@@ -34,7 +34,9 @@ export default function PrimaryMastHead({
           {/* "items-center" removed & replaced w/"py-7" */}
           <div className="flex w-full justify-center py-7">
             <div className={`text-center`}>
-              <div className={`${titleColor} pt-serif-700 text-7xl italic`}>
+              <div
+                className={`${titleColor} pt-serif-font-700 text-7xl italic`}
+              >
                 {title}
               </div>
               {/* <div className="roboto-font-500 text-3xl">{subtitle}</div> */}

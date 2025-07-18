@@ -40,11 +40,11 @@ const roboto = Roboto({
   variable: "--font-roboto",
 });
 
-// Import Varela-Round from Google Fonts
+// Import varela-round-font from Google Fonts
 const varelaRound = Varela_Round({
   weight: ["400"],
   subsets: ["latin"],
-  variable: "--font-varela-round",
+  variable: "--font-varela-round-font",
 });
 
 // Import Young-Serif from Google Fonts

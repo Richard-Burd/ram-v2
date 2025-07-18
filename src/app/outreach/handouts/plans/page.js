@@ -10,7 +10,7 @@ export default function Plans() {
       <SecondaryNavbar {...primaryHierarchyProps} />
       <TertiaryNavbar {...secondaryHierarchyProps} />
       <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
-        <div className="pt-serif-700 p-8 text-center text-7xl text-[#c2ffbf] italic">
+        <div className="pt-serif-font-700 p-8 text-center text-7xl text-[#c2ffbf] italic">
           Plans
         </div>
         <div

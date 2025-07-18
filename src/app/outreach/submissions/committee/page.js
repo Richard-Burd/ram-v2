@@ -25,7 +25,7 @@ export default function Committee() {
           id="title-and-text-box"
           className="rounded-6xl m-11 bg-neutral-950 p-8"
         >
-          <div className="pt-serif-700 p-8 text-center text-7xl text-[#c2ffbf] italic">
+          <div className="pt-serif-font-700 p-8 text-center text-7xl text-[#c2ffbf] italic">
             Committee
           </div>
           <div

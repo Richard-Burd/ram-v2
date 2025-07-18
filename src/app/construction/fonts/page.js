@@ -20,13 +20,13 @@ export default function Fonts() {
         <div className="young-serif-font mb-6">Young Serif Font</div>
         <div className="averia-400 mb-6">Averia 400 Font</div>
         <div className="averia-700 mb-6">Averia 700 Font</div>
-        <div className="pt-serif-400 mb-6">PT Serif Font 400</div>
-        <div className="pt-serif-700 mb-6">
+        <div className="pt-serif-font-400 mb-6">PT Serif Font 400</div>
+        <div className="pt-serif-font-700 mb-6">
           PT Serif Font 700 (in use for buttons)
         </div>
-        <div className="varela-round mb-6">Varela-Round Font</div>
-        <div className="varela-round mb-6">
-          <b>Varela-Round Font (bold)</b>
+        <div className="varela-round-font mb-6">varela-round-font Font</div>
+        <div className="varela-round-font mb-6">
+          <b>varela-round-font Font (bold)</b>
         </div>
         <div className="nunito-font-700 mb-6">Nunito Font 700</div>
         <br></br>
@@ -63,7 +63,7 @@ export default function Fonts() {
           </div>
 
           <div className="title-example">
-            <div className="pt-serif-400 mb-2 text-4xl italic">
+            <div className="pt-serif-font-400 mb-2 text-4xl italic">
               Recycling Advocates of Middle Tennessee
             </div>
             <div className="roboto-font-400 mb-24 pl-10 text-2xl">
@@ -72,7 +72,7 @@ export default function Fonts() {
           </div>
 
           <div className="title-example">
-            <div className="pt-serif-700 mb-2 text-4xl italic">
+            <div className="pt-serif-font-700 mb-2 text-4xl italic">
               Recycling Advocates of Middle Tennessee
             </div>
             <div className="roboto-font-400 mb-24 pl-10 text-2xl">
