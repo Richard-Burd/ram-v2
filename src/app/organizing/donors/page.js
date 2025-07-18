@@ -3,7 +3,8 @@ import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import { primaryHierarchyProps } from "@/app/organizing/page";
 
 export const secondaryHierarchyProps = {
-  bgColor: "bg-organizingBg",
+  buttonColor: "bg-organizingButton",
+  buttonBackground: "bg-organizingBackground",
   titles: ["Participation", "Expenses covered", "Monetary gifts"],
   path: "/organizing/donors",
 };
