@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import LandingButtons from "./components/LandingButtons";
+import LandingButtons from "../components/LandingButtons";
 
 export default function Home() {
   const [backgroundFillRate, setBackgroundFillRate] = useState(20);

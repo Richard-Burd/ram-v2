@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "motion/react";
 import { usePathname } from "next/navigation";
-import { italicizeRam } from "@/app/lib/italicizeRam";
+import { italicizeRam } from "@/lib/italicizeRam";
 
 export default function TertiaryNavbarButton({
   title,

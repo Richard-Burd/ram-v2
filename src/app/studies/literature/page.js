@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 
-import TextLink from "@/app/components/TextLink";
-import SecondaryNavbar from "@/app/components/SecondaryNavbar";
-import FragmentIdentifierNavbar from "@/app/components/FragmentIdentifierNavbar";
+import TextLink from "@/components/TextLink";
+import SecondaryNavbar from "@/components/SecondaryNavbar";
+import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 import { primaryHierarchyProps } from "@/app/studies/page";
 
 export const secondaryHierarchyProps = {

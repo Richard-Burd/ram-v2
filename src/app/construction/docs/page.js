@@ -1,5 +1,5 @@
-import LibrarycardCatalog from "@/app/components/LibraryCardCatalog";
-import HyperLink from "@/app/components/HyperLink";
+import LibrarycardCatalog from "@/components/LibraryCardCatalog";
+import HyperLink from "@/components/HyperLink";
 
 export default function LibraryLee() {
   return (

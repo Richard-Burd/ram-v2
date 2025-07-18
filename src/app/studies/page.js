@@ -1,6 +1,6 @@
 import Link from "next/link";
-import SecondaryNavbar from "@/app/components/SecondaryNavbar";
-import PrimaryMastHead from "@/app/components/PrimaryMastHead";
+import SecondaryNavbar from "@/components/SecondaryNavbar";
+import PrimaryMastHead from "@/components/PrimaryMastHead";
 
 export const primaryHierarchyProps = {
   buttonColor: "bg-studiesButton",

@@ -1,6 +1,6 @@
-import SecondaryNavbar from "@/app/components/SecondaryNavbar";
-import FragmentIdentifierNavbar from "@/app/components/FragmentIdentifierNavbar";
-import SocialMediaIcon from "@/app/components/SocialMediaIcon";
+import SecondaryNavbar from "@/components/SecondaryNavbar";
+import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
+import SocialMediaIcon from "@/components/SocialMediaIcon";
 import { primaryHierarchyProps } from "@/app/about/page";
 
 const socialMediaIconProps = {

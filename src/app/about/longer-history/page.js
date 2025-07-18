@@ -1,4 +1,4 @@
-import SecondaryNavbar from "@/app/components/SecondaryNavbar";
+import SecondaryNavbar from "@/components/SecondaryNavbar";
 import { primaryHierarchyProps } from "@/app/about/page";
 
 export default function LongerHistory() {

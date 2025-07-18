@@ -1,7 +1,7 @@
-import Figure from "@/app/components/Figure";
-import Document from "@/app/components/Document";
-import SecondaryNavbar from "@/app/components/SecondaryNavbar";
-import PrimaryMastHead from "@/app/components/PrimaryMastHead";
+import Figure from "@/components/Figure";
+import Document from "@/components/Document";
+import SecondaryNavbar from "@/components/SecondaryNavbar";
+import PrimaryMastHead from "@/components/PrimaryMastHead";
 
 export const metadata = {
   title: "About RAM",

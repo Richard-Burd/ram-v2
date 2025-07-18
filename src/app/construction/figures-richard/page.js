@@ -3,8 +3,8 @@
 // import Brochure from "../components/Brochure";
 // import FigurePng from "../components/FigurePng";
 // import Link from "next/link";
-import DocumentTwo from "@/app/components/DocumentTwo";
-import BrochureFig from "@/app/components/BrochureFig";
+import DocumentTwo from "@/components/DocumentTwo";
+import BrochureFig from "@/components/BrochureFig";
 
 export default function FiguresRichard() {
   return (

@@ -1,10 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import BrochureFig from "@/app/components/BrochureFig";
-import TextLink from "@/app/components/TextLink";
-import SecondaryNavbar from "@/app/components/SecondaryNavbar";
+import BrochureFig from "@/components/BrochureFig";
+import TextLink from "@/components/TextLink";
+import SecondaryNavbar from "@/components/SecondaryNavbar";
 import { primaryHierarchyProps } from "@/app/studies/page";
-import FragmentIdentifierNavbar from "@/app/components/FragmentIdentifierNavbar";
+import FragmentIdentifierNavbar from "@/components/FragmentIdentifierNavbar";
 
 export const secondaryHierarchyProps = {
   buttonColor: "bg-studiesButton",
