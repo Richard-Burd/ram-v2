@@ -92,7 +92,7 @@ export default function RootLayout({ children }) {
               <Footer />
               <Construction />
               <div className="m-4 bg-gradient-to-r from-zinc-500 to-zinc-100 p-4 text-2xl text-white">
-                Updated Site w/Next v.14 (app router) & TailwindCSS v.4
+                Updated Site w/Next v.15 (app router) & TailwindCSS v.4
               </div>
             </div>
           </div>
