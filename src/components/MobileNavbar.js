@@ -1,3 +1,3 @@
 export default function MobileNavbar() {
-  return <div>This is the Mobile Navbar for small screens</div>;
+  return <div>NOTE: The mobile version of this site is under construction</div>;
 }
