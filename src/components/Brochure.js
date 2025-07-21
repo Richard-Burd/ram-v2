@@ -12,7 +12,7 @@ export default function Brochure({
       <div className="parent">
         <div className="child-2">
           <div
-            className={`rounded-6xl my-4 ml-5 bg-[#96bba6] p-4 shadow-lg ${
+            className={`rounded-6xl my-4 ml-5 bg-[#96bba6] p-4 text-gray-900 shadow-lg ${
               title || description
                 ? "max-w-[480px]"
                 : "max-w-[480px] bg-gray-100"

@@ -3,7 +3,11 @@ import { motion } from "motion/react";
 
 import { usePathname } from "next/navigation";
 
-export default function NavbarButton({ title, buttonColor, buttonBackground }) {
+export default function DesktopNavbarButton({
+  title,
+  buttonColor,
+  buttonBackground,
+}) {
   // state machine to track location in heirarchy
   const pathname = usePathname();
   const isActive = pathname.includes(title.toLowerCase().replace(/ /g, "-"));
