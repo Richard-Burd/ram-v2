@@ -16,13 +16,13 @@ export default function LandingButton({ title, subTitle, buttonColor }) {
         <button className={`w-full rounded-full ${buttonColor}`}>
           <div
             style={{ fontSize: "2.7rem", fontStretch: "semi-expanded" }}
-            className="text-opacity-90 pt-serif-font-700 pr-3 text-5xl text-black uppercase italic"
+            className="pt-serif-font-700 pr-3 text-5xl text-black/90 uppercase italic"
           >
             {title}
           </div>
           <div
             style={{ fontSize: "1.77rem", fontStretch: "semi-expanded" }}
-            className="text-opacity-90 roboto-font-500 text-black"
+            className="roboto-font-500 text-black/90"
           >
             {subTitle}
           </div>

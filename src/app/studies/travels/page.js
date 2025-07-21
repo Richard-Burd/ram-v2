@@ -103,7 +103,7 @@ export default function Travels() {
                 Facilities toured in the following states, provinces, counties,
                 or cities:
               </div>
-              <div className="bg-opacity-30 my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl">
+              <div className="rounded-2xl bg-[#372408] px-2 py-4 text-2xl">
                 <table className="m-4 border-separate border-spacing-y-8">
                   <tbody>
                     <tr className="table-row">

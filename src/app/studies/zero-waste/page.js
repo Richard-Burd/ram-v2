@@ -88,7 +88,7 @@ export default function ZeroWaste() {
             <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
               Scam Plan Steps
             </div>
-            <div className="bg-opacity-30 my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl">
+            <div className="my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl">
               <ol className="mx-12 list-outside list-decimal">
                 <li id="1" className="">
                   A Scope of Work is assembled by government bureaucrats who
@@ -134,7 +134,7 @@ export default function ZeroWaste() {
             <div className="text-2xl">
               <p className="mb-8">To prevent plan scams as much as possible:</p>
             </div>
-            <div className="bg-opacity-30 my-4 px-2 py-4 text-2xl">
+            <div className="my-4 px-2 py-4 text-2xl">
               <ol className="mx-12 list-outside list-decimal">
                 <li id="1" className="">
                   RAM has tried to explain zero waste methodology in the next
@@ -159,7 +159,7 @@ export default function ZeroWaste() {
                     />
                     ):
                   </p>
-                  <div className="bg-opacity-30 my-4 rounded-2xl bg-[#372408] px-4 py-4">
+                  <div className="my-4 rounded-2xl bg-[#372408] px-4 py-4">
                     <table>
                       <tbody>
                         <tr id="row-1">
@@ -229,7 +229,7 @@ export default function ZeroWaste() {
                 </li>
                 <li id="4" className="pt-3 pb-2">
                   <p>Other key must-have plan elements include:</p>
-                  <div className="bg-opacity-30 my-4 rounded-2xl bg-[#372408] px-4 py-4">
+                  <div className="my-4 rounded-2xl bg-[#372408] px-4 py-4">
                     <table>
                       <tbody>
                         <tr id="row-1">
@@ -275,7 +275,7 @@ export default function ZeroWaste() {
                   To save money and eyewash, certain elements consultants
                   typically include in their plans need to be banned, for all
                   plan providers:
-                  <div className="bg-opacity-30 my-4 rounded-2xl bg-[#372408] px-4 py-4">
+                  <div className="my-4 rounded-2xl bg-[#372408] px-4 py-4">
                     <table>
                       <tbody>
                         <tr id="row-1">

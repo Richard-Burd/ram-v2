@@ -139,7 +139,7 @@ export default function Methodology() {
 
               <div
                 id="nothing"
-                className="bg-opacity-30 my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl"
+                className="my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl"
               >
                 <ol className="mx-12 list-outside list-decimal">
                   <li id="1" className="pt-3 pb-2">
@@ -214,7 +214,7 @@ export default function Methodology() {
 
                   <div
                     id="nothing"
-                    className="bg-opacity-30 my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl"
+                    className="my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl"
                   >
                     <ol id="A" className="list-alpha-upper mx-12 list-outside">
                       <li className="pt-4 pb-2">
@@ -302,7 +302,7 @@ export default function Methodology() {
 
                   <div
                     id="nothing"
-                    className="bg-opacity-30 my-4 rounded-2xl bg-[#372408] py-4 text-2xl"
+                    className="my-4 rounded-2xl bg-[#372408] py-4 text-2xl"
                   >
                     <ol className="list-alpha-upper-h mx-8 list-outside">
                       <li id="H" className="pt-4 pb-2">

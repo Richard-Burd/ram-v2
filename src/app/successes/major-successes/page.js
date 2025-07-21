@@ -56,7 +56,7 @@ export default function MajorSuccesses() {
               />{" "}
               page.
             </p>
-            <div className="bg-opacity-30 mt-8 rounded-2xl bg-[#0f1e47] px-12 py-6">
+            <div className="mt-8 rounded-2xl bg-[#0f1e47] px-12 py-6">
               <p className="mb-8">
                 Acquaintance with the concept for this -- and the application of
                 it -- came as a result of John van der Harst doing work for the
@@ -157,7 +157,7 @@ export default function MajorSuccesses() {
               that a wide variety of citizens could make sense of them was
               important. Two rounds of commenting took a lot of time.
             </p>
-            <div className="bg-opacity-30 mt-8 rounded-2xl bg-[#0f1e47] px-12 py-6">
+            <div className="mt-8 rounded-2xl bg-[#0f1e47] px-12 py-6">
               <p className="mb-8">
                 A brief primer: For heavy metal levels, soil-based standards are
                 typically derived by multiplying levels found in typical soils
@@ -342,7 +342,7 @@ export default function MajorSuccesses() {
               important to know is 1) the nature of incinerator ash, and 2) what
               treating it can lead to.
             </p>
-            <div className="bg-opacity-30 mt-8 rounded-2xl bg-[#0f1e47] px-12 py-6">
+            <div className="mt-8 rounded-2xl bg-[#0f1e47] px-12 py-6">
               <ol className="mx-2 list-outside list-decimal">
                 <li id="1" className="mb-16">
                   <p className="mb-4">

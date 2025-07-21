@@ -77,7 +77,7 @@ export default function Pilots() {
 
           <div
             id="waste-stream-analysis-list"
-            className="bg-opacity-30 mx-4 my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl"
+            className="mx-4 my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl"
           >
             <ol className="mx-12 list-outside list-decimal">
               <li id="1" className="mb-4">
@@ -114,7 +114,7 @@ export default function Pilots() {
 
           <div
             id="waste-stream-analysis-list"
-            className="bg-opacity-30 mx-4 my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl"
+            className="mx-4 my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl"
           >
             <ol className="mx-12 list-outside list-decimal">
               <li id="1" className="mb-4">

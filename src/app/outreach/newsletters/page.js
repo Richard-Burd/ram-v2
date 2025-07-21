@@ -37,7 +37,7 @@ export default function Brochures() {
         </div>
         <div
           id="figures-list"
-          className="roboto-font-400 rounded-6xl bg-opacity-70 m-6 bg-[#b8d1c8] px-6 pt-12 pb-16 text-2xl text-zinc-950"
+          className="roboto-font-400 rounded-6xl m-6 bg-[#b8d1c8] px-6 pt-12 pb-16 text-2xl text-zinc-950"
         >
           <BrochureFig figureNumber="Fig-5" fileName="trommel.jpg" />
           <br></br>

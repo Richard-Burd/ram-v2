@@ -30,7 +30,7 @@ export default function FiguresRichard() {
         fig to a given place in the website.
       </div>
       <div id="documents-list" className="ml-20"></div>
-      <div className="roboto-font-400 rounded-6xl bg-opacity-70 m-6 bg-[#cfcfcf] px-6 pt-12 pb-16 text-zinc-950">
+      <div className="roboto-font-400 rounded-6xl m-6 bg-[#cfcfcf] px-6 pt-12 pb-16 text-zinc-950">
         <BrochureFig
           originalWidth="50%"
           figureNumber="Fig-2.1"

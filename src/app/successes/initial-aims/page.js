@@ -41,7 +41,7 @@ export default function InitialAims() {
               needs into opportunities, and then deliver solutions. This
               preparation resulted from two primary focuses:
             </p>
-            <div className="bg-opacity-30 m-4 rounded-2xl bg-[#0f1e47] px-2 py-4">
+            <div className="m-4 rounded-2xl bg-[#0f1e47] px-2 py-4">
               <ol className="mx-12 list-outside list-decimal">
                 <li id="1" className="">
                   <i>RAM</i> focused steadfastly on figuring out how to{" "}
@@ -62,7 +62,7 @@ export default function InitialAims() {
               Both of these two are interrelated. Perhaps the most important
               characteristics of those with high quality talent are:
             </p>
-            <div className="bg-opacity-30 m-4 rounded-2xl bg-[#0f1e47] px-2 py-4">
+            <div className="m-4 rounded-2xl bg-[#0f1e47] px-2 py-4">
               <ol className="list-alpha-upper mx-12 list-outside">
                 <li id="A" className="">
                   having a focus on, and yearning for, <b>success</b>, and

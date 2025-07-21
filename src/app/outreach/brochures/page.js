@@ -44,7 +44,7 @@ export default function Brochures() {
           <div className="pt-serif-font-700 mx-6 mt-2 border-b-2 border-zinc-100 pt-32 text-4xl tracking-wider text-zinc-100 italic">
             Brochure Exhibits
           </div>
-          <div className="roboto-font-400 rounded-6xl bg-opacity-70 m-6 bg-[#b8d1c8] px-6 pt-12 pb-16 text-2xl text-zinc-950">
+          <div className="roboto-font-400 rounded-6xl m-6 bg-[#b8d1c8] px-6 pt-12 pb-16 text-2xl text-zinc-950">
             <div className="text-bloc mb-8">
               <p className="mb-4">
                 Everyone contributes to the generation of waste that, as a

@@ -20,7 +20,7 @@ export default function CurrentCampaigns() {
               delivering solutions, as needs arise. Continue with two primary
               focuses that have worked so far:
             </p>
-            <div className="bg-opacity-30 m-4 rounded-2xl bg-[#0f1e47] px-2 py-4">
+            <div className="m-4 rounded-2xl bg-[#0f1e47] px-2 py-4">
               <ol className="mx-12 list-outside list-decimal">
                 <li id="1" className="">
                   Figuring out -- and communicating -- how to{" "}
