@@ -22,7 +22,7 @@ export default function Brochures() {
           Brochures
         </div>
         <div id="printable-brochures">
-          <div className="pt-serif-font-700 mx-6 mt-2 border-b-2 border-zinc-100 text-4xl tracking-wider text-zinc-100 italic opacity-95">
+          <div className="pt-serif-font-wider-700 mx-6 mt-2 border-b-2 border-zinc-100 text-4xl text-zinc-100 italic opacity-95">
             Printable Brochures
           </div>
           <div className="ml-1 flex">

@@ -72,6 +72,12 @@ body {
   letter-spacing: 0.2px;
 }
 
+.pt-serif-font-wider-700 {
+  font-family: var(--font-pt-serif), serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
 .roboto-font-300 {
   font-family: var(--font-roboto), sans-serif;
   font-weight: 300;
