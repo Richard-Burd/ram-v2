@@ -21,7 +21,7 @@ export default function MobileNavbarButton({
     <div className={`${activeButton}`}>
       <div className={`${buttonColor} mx-[6px] rounded-full`}>
         <div className="rounded-full shadow-[2px_4px_7px_rgba(0,0,0,0.95)]">
-          <div className="pt-serif-font-700 my-2 py-3 text-center text-[1.3rem] text-black/80 uppercase italic">
+          <div className="pt-serif-font-700 my-2 py-3 text-center text-[1.1rem] text-black/80 uppercase italic">
             {title}
           </div>
         </div>
