@@ -13,15 +13,13 @@ export default function MobileNavbarButton({
     (slug === "home" && pathname === "/") ||
     (slug !== "home" && pathname.includes(slug)) ||
     (slug === "organiz'g" && pathname.includes("organizing"));
-  const activeButton = isActive
-    ? `py-[0.7px] px-[8px]  ${buttonBackground}`
-    : null;
+  const activeButton = isActive ? `${buttonBackground}` : null;
 
   return (
-    <div className={`${activeButton}`}>
-      <div className={`${buttonColor} mx-[6px] rounded-full`}>
-        <div className="rounded-full shadow-[2px_4px_7px_rgba(0,0,0,0.95)]">
-          <div className="pt-serif-font-700 my-2 py-3 text-center text-[1.1rem] text-black/80 uppercase italic">
+    <div className={`${activeButton} p-2`}>
+      <div className={`${buttonColor} rounded-full`}>
+        <div className="rounded-full py-2 shadow-[2px_4px_7px_rgba(0,0,0,0.95)]">
+          <div className="pt-serif-font-700 text-center text-[0.7rem] text-black/80 uppercase italic">
             {title}
           </div>
         </div>
