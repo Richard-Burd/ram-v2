@@ -8,16 +8,20 @@ export default function MobileNavbarButton({
 }) {
   // state machine to track location in heirarchy
   const pathname = usePathname();
-  const isActive = pathname.includes(title.toLowerCase().replace(/ /g, "-"));
+  const slug = title.toLowerCase().replace(/ /g, "-");
+  const isActive =
+    (slug === "home" && pathname === "/") ||
+    (slug !== "home" && pathname.includes(slug)) ||
+    (slug === "organiz'g" && pathname.includes("organizing"));
   const activeButton = isActive
-    ? `-mx-1 -my-2 px-1 py-2 ${buttonBackground}`
+    ? `py-[0.7px] px-[8px]  ${buttonBackground}`
     : null;
 
   return (
     <div className={`${activeButton}`}>
-      <div className={`${buttonColor} rounded-full`}>
+      <div className={`${buttonColor} mx-[6px] rounded-full`}>
         <div className="rounded-full shadow-[2px_4px_7px_rgba(0,0,0,0.95)]">
-          <div className="pt-serif-font-700 m-1 text-center text-2xl text-black/80 uppercase italic">
+          <div className="pt-serif-font-700 my-2 py-3 text-center text-[1.3rem] text-black/80 uppercase italic">
             {title}
           </div>
         </div>
@@ -25,3 +29,5 @@ export default function MobileNavbarButton({
     </div>
   );
 }
+
+// -mx-1 -my-1 px-1 py-2

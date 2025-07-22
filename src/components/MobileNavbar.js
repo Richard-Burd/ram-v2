@@ -7,14 +7,17 @@ export default function MobileNavbar() {
       <div className="flex justify-center">
         <div className="grid w-full grid-cols-3">
           <Link className="mx-1 min-w-32 flex-grow" href="/">
-            <MobileNavbarButton title="Home" buttonColor="bg-homeButton" />
+            <MobileNavbarButton
+              title="Home"
+              buttonColor="bg-homeButton"
+              buttonBackground="bg-aboutBackground"
+            />
           </Link>
           <Link className="mx-1 min-w-32 flex-grow" href="/about">
             <MobileNavbarButton
               title="About"
               buttonColor="bg-aboutButton"
               buttonBackground="bg-aboutBackground"
-              className="ml-4"
             />
           </Link>
           <Link className="mx-1 min-w-32 flex-grow" href="/studies">
@@ -22,7 +25,6 @@ export default function MobileNavbar() {
               title="Studies"
               buttonColor="bg-studiesButton"
               buttonBackground="bg-studiesBackground"
-              className="ml-4"
             />
           </Link>
           <Link className="mx-1 min-w-32 flex-grow" href="/outreach">
@@ -30,7 +32,6 @@ export default function MobileNavbar() {
               title="Outreach"
               buttonColor="bg-outreachButton"
               buttonBackground="bg-outreachBackground"
-              className="ml-4"
             />
           </Link>
           <Link className="mx-1 min-w-32 flex-grow" href="/successes">
@@ -38,15 +39,13 @@ export default function MobileNavbar() {
               title="Successes"
               buttonColor="bg-successesButton"
               buttonBackground="bg-successesBackground"
-              className="ml-4"
             />
           </Link>
           <Link className="mx-1 min-w-32 flex-grow" href="/organizing">
             <MobileNavbarButton
-              title="Organizing"
+              title="Organiz'g"
               buttonColor="bg-organizingButton"
               buttonBackground="bg-organizingBackground"
-              className="ml-4"
             />
           </Link>
         </div>
