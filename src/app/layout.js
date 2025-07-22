@@ -8,7 +8,7 @@ import {
 } from "next/font/google";
 import "./globals.css";
 
-import Navbar from "../components/PrimaryNavbar";
+import PrimaryNavbar from "../components/PrimaryNavbar";
 import Footer from "../components/Footer";
 import Construction from "../components/Construction";
 
@@ -87,9 +87,7 @@ export default function RootLayout({ children }) {
         <div className="bg-zinc-700/95">
           <div className="relative mx-auto sm:max-w-screen-lg lg:max-w-screen-lg lg:px-0">
             <div className="bg-slate-100">
-              <div className="text-mytext">This text is 1.2rem</div>
-              <div className="text-mytext2">This text is 2rem</div>
-              <Navbar />
+              <PrimaryNavbar />
               <main>{children}</main>
               <Footer />
               <Construction />

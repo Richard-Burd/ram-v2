@@ -1,14 +1,14 @@
-import DesktopNavbar from "./DesktopNavbar";
-import MobileNavbar from "./MobileNavbar";
+import PrimaryDesktopNavbar from "./PrimaryDesktopNavbar";
+import PrimaryMobileNavbar from "./PrimaryMobileNavbar";
 
 export default function PrimaryNavbar() {
   return (
     <div>
       <div className="hidden lg:block">
-        <DesktopNavbar />
+        <PrimaryDesktopNavbar />
       </div>
       <div className="lg:hidden">
-        <MobileNavbar />
+        <PrimaryMobileNavbar />
       </div>
     </div>
   );

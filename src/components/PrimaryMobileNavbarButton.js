@@ -1,7 +1,7 @@
 "use client"; // Ensure this is present for App Router
 import { usePathname } from "next/navigation";
 
-export default function MobileNavbarButton({
+export default function PrimaryMobileNavbarButton({
   title,
   buttonColor,
   buttonBackground,

@@ -1,16 +1,19 @@
 import Link from "next/link";
-import DesktopNavbarButton from "./DesktopNavbarButton";
+import PrimaryDesktopNavbarButton from "./PrimaryDesktopNavbarButton";
 
-export default function DesktopNavbar() {
+export default function PrimaryDesktopNavbar() {
   return (
     <nav className="border-b-2 border-y-slate-500 bg-neutral-950 px-1 py-2 text-white">
       <div className="container flex justify-between">
         <div className="flex flex-auto items-center justify-items-stretch">
           <Link className="mx-1 min-w-32 flex-grow" href="/">
-            <DesktopNavbarButton title="Home" buttonColor="bg-homeButton" />
+            <PrimaryDesktopNavbarButton
+              title="Home"
+              buttonColor="bg-homeButton"
+            />
           </Link>
           <Link className="mx-1 min-w-32 flex-grow" href="/about">
-            <DesktopNavbarButton
+            <PrimaryDesktopNavbarButton
               title="About"
               buttonColor="bg-aboutButton"
               buttonBackground="bg-aboutBackground"
@@ -18,7 +21,7 @@ export default function DesktopNavbar() {
             />
           </Link>
           <Link className="mx-1 min-w-32 flex-grow" href="/studies">
-            <DesktopNavbarButton
+            <PrimaryDesktopNavbarButton
               title="Studies"
               buttonColor="bg-studiesButton"
               buttonBackground="bg-studiesBackground"
@@ -26,7 +29,7 @@ export default function DesktopNavbar() {
             />
           </Link>
           <Link className="mx-1 min-w-32 flex-grow" href="/outreach">
-            <DesktopNavbarButton
+            <PrimaryDesktopNavbarButton
               title="Outreach"
               buttonColor="bg-outreachButton"
               buttonBackground="bg-outreachBackground"
@@ -34,7 +37,7 @@ export default function DesktopNavbar() {
             />
           </Link>
           <Link className="mx-1 min-w-32 flex-grow" href="/successes">
-            <DesktopNavbarButton
+            <PrimaryDesktopNavbarButton
               title="Successes"
               buttonColor="bg-successesButton"
               buttonBackground="bg-successesBackground"
@@ -42,7 +45,7 @@ export default function DesktopNavbar() {
             />
           </Link>
           <Link className="mx-1 min-w-32 flex-grow" href="/organizing">
-            <DesktopNavbarButton
+            <PrimaryDesktopNavbarButton
               title="Organizing"
               buttonColor="bg-organizingButton"
               buttonBackground="bg-organizingBackground"

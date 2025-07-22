@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 
 import { usePathname } from "next/navigation";
 
-export default function DesktopNavbarButton({
+export default function PrimaryDesktopNavbarButton({
   title,
   buttonColor,
   buttonBackground,
