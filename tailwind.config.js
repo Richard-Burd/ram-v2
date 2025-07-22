@@ -1,7 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/app/**/*.{js,ts,jsx,tsx,mdx}"],
-  safelist: ["bg-gradient-24"],
+  content: [
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  safelist: ["bg-gradient-24", "text-mytext", "text-mytext2"],
   theme: {
     extend: {
       // this isn't working on NavbarButton.js, consider deleting
@@ -21,6 +24,10 @@ module.exports = {
         roboto: "var(--font-roboto)",
         varelaRound: "var(--font-varela-round-font)",
         youngSerif: "var(--font-young-serif)",
+      },
+      fontSize: {
+        mytext: "1.5rem",
+        mytext2: ["2rem", { lineHeight: "2.5rem" }],
       },
       listStyleType: {
         square: "square",

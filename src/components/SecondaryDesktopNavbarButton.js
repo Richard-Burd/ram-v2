@@ -2,7 +2,7 @@
 import { motion } from "motion/react";
 import { usePathname } from "next/navigation";
 
-export default function SecondaryNavbarButton({
+export default function SecondaryDesktopNavbarButton({
   title,
   buttonColor,
   buttonBackground,
