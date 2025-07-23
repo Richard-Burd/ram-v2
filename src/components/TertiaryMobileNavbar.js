@@ -8,9 +8,9 @@ export default function TertiaryMobileNavbar({
   path,
 }) {
   return (
-    <nav className="border-b-2 border-y-slate-500 bg-neutral-950 px-1 py-2 text-white">
+    <nav className="border-b-2 border-y-slate-500 bg-neutral-950 p-1">
       <div className="container flex justify-between">
-        <div className="flex flex-auto items-center justify-items-stretch">
+        <div className="flex flex-auto flex-wrap items-center justify-items-stretch p-1">
           {titles.map((title) => (
             <Link
               key={title}
