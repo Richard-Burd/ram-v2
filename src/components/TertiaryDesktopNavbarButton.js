@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { usePathname } from "next/navigation";
 import { italicizeRam } from "@/lib/italicizeRam";
 
-export default function TertiaryNavbarButton({
+export default function TertiaryDesktopNavbarButton({
   title,
   buttonColor,
   buttonBackground,
@@ -35,7 +35,7 @@ export default function TertiaryNavbarButton({
           <div
             className={`${buttonColor} rounded-lg shadow-[2px_4px_7px_rgba(0,0,0,0.95)]`}
           >
-            <div className="roboto-font-500 px-3 text-center text-xl text-[#0a2c0e]">
+            <div className="roboto-font-500 px-3 text-center text-xl text-black/80">
               {formattedTitle}
             </div>
           </div>

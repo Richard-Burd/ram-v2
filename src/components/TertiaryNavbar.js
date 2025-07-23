@@ -1,5 +1,5 @@
-import Link from "next/link";
-import TertiaryNavbarButton from "./TertiaryNavbarButton";
+import TertiaryDesktopNavbar from "./TertiaryDesktopNavbar";
+import TertiaryMobileNavbar from "./TertiaryMobileNavbar";
 
 export default function TertiaryNavbar({
   buttonColor,
@@ -8,24 +8,23 @@ export default function TertiaryNavbar({
   path,
 }) {
   return (
-    <nav className="border-b-2 border-y-slate-500 bg-neutral-950 px-1 py-2 text-white">
-      <div className="container flex justify-between">
-        <div className="flex flex-auto items-center justify-items-stretch">
-          {titles.map((title) => (
-            <Link
-              key={title}
-              className="mx-1 min-w-32 flex-grow"
-              href={`${path}/${title.toLowerCase().replace(/ /g, "-")}`}
-            >
-              <TertiaryNavbarButton
-                title={title}
-                buttonColor={buttonColor}
-                buttonBackground={buttonBackground}
-              />
-            </Link>
-          ))}
-        </div>
+    <div>
+      <div className="hidden lg:block">
+        <TertiaryDesktopNavbar
+          buttonColor={buttonColor}
+          buttonBackground={buttonBackground}
+          titles={titles}
+          path={path}
+        />
       </div>
-    </nav>
+      <div className="lg:hidden">
+        <TertiaryMobileNavbar
+          buttonColor={buttonColor}
+          buttonBackground={buttonBackground}
+          titles={titles}
+          path={path}
+        />
+      </div>
+    </div>
   );
 }
