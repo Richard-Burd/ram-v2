@@ -10,7 +10,7 @@ export default function FragmentIdentifierMobileNavbar({
 }) {
   return (
     <nav className="border-b-2 border-y-slate-500 bg-neutral-950 p-1">
-      <div className="container flex justify-between p-1">
+      <div className="container flex justify-between">
         <div className="flex flex-auto flex-wrap items-center justify-items-stretch p-1">
           {titles.map((title, index) => {
             let titleText = "";
