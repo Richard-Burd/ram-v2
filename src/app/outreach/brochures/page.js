@@ -25,7 +25,7 @@ export default function Brochures() {
           <div className="pt-serif-font-wider-700 mx-6 mt-2 border-b-2 border-zinc-100 text-4xl text-zinc-100 italic opacity-95">
             Printable Brochures
           </div>
-          <div className="ml-1 flex">
+          <div className="mx-0 flex-none lg:mx-1 lg:flex">
             <Brochure
               title="RAM's Tri-Fold Brochure"
               fileName="fig-3"

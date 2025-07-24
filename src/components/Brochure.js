@@ -10,7 +10,7 @@ export default function Brochure({
   return (
     <div>
       <div className="parent">
-        <div className="child-2">
+        <div className="child-2 mr-5 lg:mr-0">
           <div
             className={`rounded-6xl my-4 ml-5 bg-[#96bba6] p-4 text-gray-950 shadow-lg ${
               title || description
