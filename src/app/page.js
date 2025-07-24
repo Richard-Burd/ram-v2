@@ -1,6 +1,9 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import LandingButtons from "../components/LandingButtons";
+import Image from "next/image";
+
+const imagePath = `${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}`;
 
 export default function Home() {
   const [backgroundFillRate, setBackgroundFillRate] = useState(20);
@@ -32,12 +35,25 @@ export default function Home() {
       <div className="bg-black">
         <div className={`right-fade-${backgroundFillRate}`}>
           <div className={`left-fade-${backgroundFillRate}`}>
-            <div className="pb-10">
-              <div className={``}>
+            <div id="logo-desktop-version" className="hidden lg:block">
+              <div className="flex items-center justify-center py-4">
+                <Image
+                  width={765}
+                  height={1}
+                  src={`${imagePath}/ram-logo-trans-red.v2.png`}
+                  alt="Red RAM Logo (desktop version)"
+                />
+              </div>
+              <LandingButtons />
+            </div>
+            <div id="logo-mobile-version" className="bg-black/50 lg:hidden">
+              <div className="flex items-center justify-center px-4 py-4 sm:px-[6rem]">
                 <img
-                  className="mx-auto max-h-[90vh] max-w-[85vh] py-4"
-                  src={`${process.env.NEXT_PUBLIC_ARTICLE_IMAGES_URI_PATH}/ram-logo-trans-red.v2.png`}
-                  alt="RAM Logo"
+                  src={`${imagePath}/ram-logo-trans-red-mobile.png`}
+                  alt="Red RAM Logo (mobile version)"
+                  className="h-auto w-full"
+                  width={300}
+                  height={1}
                 />
               </div>
               <LandingButtons />
