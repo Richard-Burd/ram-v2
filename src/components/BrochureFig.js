@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "motion/react";
 
 export default function BrochureFig({
@@ -17,12 +17,29 @@ export default function BrochureFig({
     }
   };
 
+  // disable the motion for the figure in mobile
+  function useIsLargeScreen() {
+    const [isLarge, setIsLarge] = useState(true);
+
+    useEffect(() => {
+      const update = () => {
+        setIsLarge(window.innerWidth >= 900); // Tailwind's lg breakpoint
+      };
+      update();
+      window.addEventListener("resize", update);
+      return () => window.removeEventListener("resize", update);
+    }, []);
+
+    return isLarge;
+  }
+  const isLarge = useIsLargeScreen();
+
   return (
     <div className="">
       <motion.div
-        onClick={toggleSize}
-        animate={{ width }}
-        style={{ width }}
+        onClick={isLarge ? toggleSize : undefined}
+        animate={isLarge ? { width } : undefined}
+        style={isLarge ? { width } : {}}
         className="cursor-pointer"
       >
         <div className="child-1">
