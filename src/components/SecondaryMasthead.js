@@ -7,25 +7,28 @@ export default function SecondaryMastHead({
   titles,
   titleColor,
   buttonsColor,
+  path,
 }) {
   return (
     <div>
       <div className="hidden lg:block">
         <SecondaryDesktopMastHead
-          title={title}
+          buttonsColor={buttonsColor}
           description={description}
+          path={path}
+          title={title}
           titles={titles}
           titleColor={titleColor}
-          buttonsColor={buttonsColor}
         />
       </div>
       <div className="lg:hidden">
         <SecondaryMobileMastHead
-          title={title}
+          buttonsColor={buttonsColor}
           description={description}
+          path={path}
+          title={title}
           titles={titles}
           titleColor={titleColor}
-          buttonsColor={buttonsColor}
         />
       </div>
     </div>

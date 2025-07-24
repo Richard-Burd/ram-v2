@@ -10,28 +10,29 @@ export default function PrimaryMastHead({
   backgroundColor,
   buttonsColor,
   path,
-  topMarginForEachHierarchyButton,
 }) {
   return (
     <div>
       <div className="hidden lg:block">
         <PrimaryDesktopMastHead
+          backgroundColor={backgroundColor}
+          buttonsColor={buttonsColor}
+          path={path}
+          swooshColor={swooshColor}
           title={title}
           titles={titles}
           titleColor={titleColor}
-          swooshColor={swooshColor}
-          backgroundColor={backgroundColor}
-          buttonsColor={buttonsColor}
         />
       </div>
       <div className="lg:hidden">
         <PrimaryMobileMastHead
+          backgroundColor={backgroundColor}
+          buttonsColor={buttonsColor}
+          path={path}
+          swooshColor={swooshColor}
           title={title}
           titles={titles}
           titleColor={titleColor}
-          swooshColor={swooshColor}
-          backgroundColor={backgroundColor}
-          buttonsColor={buttonsColor}
         />
       </div>
     </div>
