@@ -30,23 +30,23 @@ export default function Pilots() {
   };
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] pb-16 text-zinc-300">
+      <div className="bg-gradient-to-l from-[#aba528] to-[#5e5a16] pb-16 text-zinc-300 md:from-[#948e22] md:to-[#1a1906]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
 
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-8"
+          className="md:rounded-6xl m-4 rounded-3xl bg-neutral-950 p-0 md:m-11 md:p-8"
         >
           <div className="pt-serif-font-700 my-4 py-4 text-center text-6xl text-[#fcffbf] italic">
             Pilots
           </div>
 
           <div id="hands-on" className="mx-4 mb-24 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Hands-On vs. Just Talk
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <div className="mb-8">
                 One valid criticism of environmental groups by industry is that
                 they just have no feel for the subject, compared with those who
@@ -57,10 +57,10 @@ export default function Pilots() {
           </div>
 
           <div id="waste-stream-analysis" className="mx-4 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Waste Stream Analysis
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <div className="mb-8">
                 Future <i>RAM</i>sters Sandy Loyd, Connie Collopy, and John van
                 der Harst collected bags of compacted and uncompacted waste to
@@ -77,9 +77,9 @@ export default function Pilots() {
 
           <div
             id="waste-stream-analysis-list"
-            className="mx-4 my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl"
+            className="mx-4 rounded-2xl bg-[#372408] py-4 text-lg md:text-2xl"
           >
-            <ol className="mx-12 list-outside list-decimal">
+            <ol className="mx-8 list-outside list-decimal md:mx-12">
               <li id="1" className="mb-4">
                 Surprises await. E.g. When one bag was opened and dumped, what
                 came out first was a car-engine's quantity of oil, followed by
@@ -98,11 +98,11 @@ export default function Pilots() {
             </ol>
           </div>
 
-          <div id="wet/dry-system-pilots" className="mx-4 pt-4">
-            <div className="mt-20 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+          <div id="wet/dry-system-pilots" className="mx-4 mt-20 pt-4">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Wet/Dry System Pilots
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <div className="mb-8">
                 Wet/dry systems are the most cost-effective approach for many
                 waste streams. As such, the disposal industry is more eager to
@@ -114,9 +114,9 @@ export default function Pilots() {
 
           <div
             id="waste-stream-analysis-list"
-            className="mx-4 my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl"
+            className="mx-4 rounded-2xl bg-[#372408] py-4 text-lg md:text-2xl"
           >
-            <ol className="mx-12 list-outside list-decimal">
+            <ol className="mx-8 list-outside list-decimal md:mx-12">
               <li id="1" className="mb-4">
                 Counter unexperienced claims with experienced ones,
               </li>
@@ -139,10 +139,10 @@ export default function Pilots() {
           </div>
 
           <div id="mixed-waste-processing" className="mx-4 pt-4">
-            <div className="mt-20 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Mixed-Waste Processing
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <div className="mb-8">
                 When processing is set up for wet/dry streams, often mixed
                 wastes are available to try recovering materials from, for
@@ -152,10 +152,10 @@ export default function Pilots() {
           </div>
 
           <div id="case-studies" className="mx-4 pt-4">
-            <div className="mt-20 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Case Studies
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <div className="mb-8">
                 The following reflect recovery levels from various pilots that{" "}
                 <i>RAM</i> members have participated in:
@@ -165,7 +165,7 @@ export default function Pilots() {
                 <BrochureFig fileName="recovery.jpg" borderColor="#665c49" />
               </div>
 
-              <div className="mb-8">
+              <div className="pb-8">
                 What is not recovered in these pilots, generally would be
                 recovered if markets developed for zero-waste schemes were
                 available. See{" "}
