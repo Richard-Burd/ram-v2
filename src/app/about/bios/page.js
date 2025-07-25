@@ -57,7 +57,7 @@ export default function Bios() {
     "columns-1 md:columns-2 lg:columns-3 my-7 standard-font-3 text-justify text-lg";
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#873f08] to-[#1a0c02] pb-72 text-zinc-300">
+      <div className="bg-gradient-to-l from-[#964609] to-[#4d2406] pb-72 text-zinc-300 md:from-[#873f08] md:to-[#1a0c02]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
         <div
