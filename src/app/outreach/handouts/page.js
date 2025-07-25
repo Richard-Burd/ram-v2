@@ -41,7 +41,7 @@ export default function Handouts() {
           marginBetweenButtons="mt-4"
         />
 
-        <div id="handouts-list" className="ml-20">
+        <div id="handouts-list" className="ml-0 lg:ml-20">
           <Document
             title="Airborne & Solid Waste Emissions"
             fileName="doc-696"

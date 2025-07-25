@@ -52,12 +52,12 @@ export default function About() {
           fileLabel={true}
         />
 
-        {/* <Document
+        <Document
           title="Jefferson County Solid Waste Management District Board"
           fileName="doc-2"
           description="Attendees: Elgin Crull, Fred Banks, Joyce St. Clain, et. al. This is a rambling sentence that will let us see what a longer description would look like for a particular document."
           fileLabel={true}
-        /> */}
+        />
       </div>
     </div>
   );
