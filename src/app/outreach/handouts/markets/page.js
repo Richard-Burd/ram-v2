@@ -15,7 +15,7 @@ export default function Markets() {
           Markets
         </div>
 
-        <div id="handouts-list" className="ml-20">
+        <div id="handouts-list" className="ml-0 md:ml-20">
           <Document
             title="Remanufacturing Example"
             fileName="doc-689"

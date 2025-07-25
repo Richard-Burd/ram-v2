@@ -21,7 +21,7 @@ export default function Political() {
           ...comming soon! This page is under construction.
         </div>
 
-        <div id="handouts-list" className="ml-20">
+        <div id="handouts-list" className="ml-0 md:ml-20">
           <Document
             title="Summary of Ten Hidden Taxes Caused by the Thermal Plant"
             fileName="doc-692"

@@ -19,15 +19,15 @@ export const thisNavbarProps = {
 export default function General() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
+      <div className="bg-gradient-to-l from-[#0bb931] to-[#075818] pb-72 md:from-[#088723] md:to-[#021a07]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <TertiaryNavbar {...secondaryHierarchyProps} />
         <FragmentIdentifierNavbar {...thisNavbarProps} />
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-8"
+          className="md:rounded-6xl m-5 rounded-3xl bg-neutral-950 p-4 md:m-11 md:p-8"
         >
-          <div className="pt-serif-font-700 my-4 py-4 text-center text-6xl text-[#c2ffbf] italic">
+          <div className="pt-serif-font-700 my-4 py-4 text-center text-5xl text-[#c2ffbf] italic md:text-6xl">
             General
           </div>
 
@@ -41,12 +41,12 @@ export default function General() {
           <div id="main-body" className="text-zinc-200">
             <div
               id="nashville-thermal-transfer-corp."
-              className="mx-8 mb-24 pt-4 text-zinc-200"
+              className="mx-0 mb-24 pt-4 text-zinc-200 md:mx-8"
             >
-              <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+              <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-2xl font-bold md:text-4xl">
                 Nashville Thermal Transfer Corp.
               </div>
-              <div className="text-2xl">
+              <div className="text-lg md:text-2xl">
                 <p className="mb-8">
                   A countywide cost/benefit analysis of converting a WTE
                   incinerator managed by the Nashville Thermal Transfer Corp. to
@@ -62,12 +62,12 @@ export default function General() {
 
             <div
               id="governor's-office,-state-of-tennessee"
-              className="mx-8 mb-24 pt-4 text-zinc-200"
+              className="mx-0 mb-24 pt-4 text-zinc-200 md:mx-8"
             >
-              <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+              <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-2xl font-bold md:text-4xl">
                 Governor's Office, State of Tennessee
               </div>
-              <div className="text-2xl">
+              <div className="text-lg md:text-2xl">
                 <p className="mb-8">
                   A funding and procedural blueprint for eliminating nearly all
                   solid waste disposal on a statewide basis, in response to a
@@ -77,11 +77,11 @@ export default function General() {
               </div>
             </div>
 
-            <div id="support" className="mx-8 mb-24 pt-4 text-zinc-200">
-              <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div id="support" className="mx-0 mb-24 pt-4 text-zinc-200 md:mx-8">
+              <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-2xl font-bold md:text-4xl">
                 Support
               </div>
-              <div className="text-2xl">
+              <div className="text-lg md:text-2xl">
                 <p className="mb-8">
                   11 persons deserving support. Response to request. Submitted
                   to Harold L. Stokes, Redford, Michigan. 1 page, January 1998.
@@ -89,11 +89,14 @@ export default function General() {
               </div>
             </div>
 
-            <div id="research" className="mx-8 mb-24 pt-4 text-zinc-200">
-              <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div
+              id="research"
+              className="mx-0 mb-24 pt-4 text-zinc-200 md:mx-8"
+            >
+              <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-2xl font-bold md:text-4xl">
                 Research
               </div>
-              <div className="text-2xl">
+              <div className="text-lg md:text-2xl">
                 <p className="mb-8">
                   Additional research needed. Response to Air, Soil, and Water
                   Pollution: Environmental Health Implications, town meeting
@@ -115,9 +118,9 @@ export default function General() {
 
             <div
               id="items-list"
-              className="m-4 p-4 text-2xl text-zinc-200 opacity-70"
+              className="m-4 p-4 text-lg text-zinc-200 opacity-70 md:text-2xl"
             >
-              <ul className="list-square m-4 list-outside p-4">
+              <ul className="list-square m-0 list-outside p-4 md:m-4">
                 <li className="mb-4">
                   A 2-page (8 1/2 x 14) 5-scenario economic comparison of
                   options related to incineration, 10/93. To see what it looks

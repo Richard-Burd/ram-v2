@@ -17,15 +17,15 @@ export const thisNavbarProps = {
 export default function Committee() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
+      <div className="bg-gradient-to-l from-[#0bb931] to-[#075818] pb-72 md:from-[#088723] md:to-[#021a07]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <TertiaryNavbar {...secondaryHierarchyProps} />
         <FragmentIdentifierNavbar {...thisNavbarProps} />
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-8"
+          className="md:rounded-6xl m-5 rounded-3xl bg-neutral-950 p-4 md:m-11 md:p-8"
         >
-          <div className="pt-serif-font-700 p-8 text-center text-7xl text-[#c2ffbf] italic">
+          <div className="pt-serif-font-700 my-4 py-4 text-center text-5xl text-[#c2ffbf] italic md:text-6xl">
             Committee
           </div>
           <div
@@ -37,12 +37,12 @@ export default function Committee() {
 
           <div
             id="report-to-the-mayor"
-            className="mx-8 mb-24 pt-4 text-zinc-200"
+            className="mx-0 mb-24 pt-4 text-zinc-200 md:mx-8"
           >
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-2xl font-bold md:text-4xl">
               Report to the Mayor
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <p className="mb-8">
                 Preliminary report to the Mayor. Submitted to the Mayor of the
                 Metropolitan Government of Nashville and Davidson County,
@@ -53,12 +53,12 @@ export default function Committee() {
 
           <div
             id="curbside-recycling-bidding-and-alternatives"
-            className="mx-8 mb-24 pt-4 text-zinc-200"
+            className="mx-0 mb-24 pt-4 text-zinc-200 md:mx-8"
           >
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-2xl font-bold md:text-4xl">
               Curbside Recycling Bidding and Alternatives
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <p className="mb-8">
                 Draft and Final{" "}
                 <i>

@@ -14,15 +14,15 @@ export const thisNavbarProps = {
 export default function Regulatory() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
+      <div className="bg-gradient-to-l from-[#0bb931] to-[#075818] pb-72 md:from-[#088723] md:to-[#021a07]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <TertiaryNavbar {...secondaryHierarchyProps} />
         <FragmentIdentifierNavbar {...thisNavbarProps} />
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-8"
+          className="md:rounded-6xl m-5 rounded-3xl bg-neutral-950 p-4 md:m-11 md:p-8"
         >
-          <div className="pt-serif-font-700 p-8 text-center text-7xl text-[#c2ffbf] italic">
+          <div className="pt-serif-font-700 my-4 py-4 text-center text-5xl text-[#c2ffbf] italic md:text-6xl">
             Regulatory
           </div>
           <div
@@ -32,11 +32,11 @@ export default function Regulatory() {
             ...comming soon! This page is under construction.
           </div>
 
-          <div id="u.s.-epa" className="mx-8 mb-24 pt-4 text-zinc-200">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+          <div id="u.s.-epa" className="mx-0 mb-24 pt-4 text-zinc-200 md:mx-8">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-2xl font-bold md:text-4xl">
               U.S. EPA
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <p className="mb-8">
                 Proposed emissions guidelines for municipal waste combustors.
                 Submitted to the U.S. EPA, Washington, DC. 3 pages, November
@@ -50,11 +50,11 @@ export default function Regulatory() {
             </div>
           </div>
 
-          <div id="tennessee" className="mx-8 mb-24 pt-4 text-zinc-200">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+          <div id="tennessee" className="mx-0 mb-24 pt-4 text-zinc-200 md:mx-8">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-2xl font-bold md:text-4xl">
               Tennessee
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <p className="mb-8">
                 Draft regulatory amendments to the 1991 Solid Waste Management
                 Act statutes. Submitted to the Tennessee Dept. of Environment
@@ -86,11 +86,11 @@ export default function Regulatory() {
             </div>
           </div>
 
-          <div id="maine" className="mx-8 mb-24 pt-4 text-zinc-200">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+          <div id="maine" className="mx-0 mb-24 pt-4 text-zinc-200 md:mx-8">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-2xl font-bold md:text-4xl">
               Maine
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <p className="mb-8">
                 Draft Order -- Application of Beneficial Use of Special Waste.
                 applied for by American Ash Recycling Corp. of New England.
@@ -108,12 +108,12 @@ export default function Regulatory() {
 
           <div
             id="metro-nashville/davidson-county"
-            className="mx-8 mb-24 pt-4 text-zinc-200"
+            className="mx-0 mb-24 pt-4 text-zinc-200 md:mx-8"
           >
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-2xl font-bold md:text-4xl">
               Metro Nashville/Davidson County
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <p className="mb-8">
                 Proposed construction permits for two regional infectious waste
                 incinerators. Submitted to the Metropolitan Government of
