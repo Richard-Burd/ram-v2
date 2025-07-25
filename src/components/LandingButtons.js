@@ -46,7 +46,7 @@ export default function LandingButtons() {
           />
         </Link>
 
-        <Link href="/successes" passHref>
+        <Link href="/organizing" passHref>
           <LandingButton
             title="Organizing"
             subTitle="Join us"
