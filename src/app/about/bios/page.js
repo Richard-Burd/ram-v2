@@ -62,14 +62,14 @@ export default function Bios() {
         <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-6"
+          className="md:rounded-6xl m-4 rounded-3xl bg-neutral-950 p-4 md:m-11 md:p-8"
         >
-          <div className="pt-serif-font-700 m-4 p-4 text-center text-5xl text-[#ffe9bf] italic">
+          <div className="pt-serif-font-700 m-4 p-4 text-center text-3xl text-[#ffe9bf] italic md:text-5xl">
             Some Notable RAM Members
           </div>
 
           <div id="john-van-der-harst">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               John van der Harst
             </div>
             <div className={crewDescriptionTestLayoutStyles}>
@@ -159,7 +159,7 @@ export default function Bios() {
                 , aims to reduce transportation and construction waste.
               </div>
             </div>
-            <center className="mx-64 grid grid-cols-3 content-center">
+            <center className="mx-0 grid grid-cols-3 content-center md:mx-64">
               <SocialMediaIcon
                 icon="recycle"
                 hyperLink="https://ram-website-images-and-documents.s3.us-east-2.amazonaws.com/doc-684.pdf"
@@ -179,7 +179,7 @@ export default function Bios() {
           </div>
 
           <div id="karen-cisler" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Karen Cisler
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -200,7 +200,7 @@ export default function Bios() {
           </div>
 
           <div id="michael-goff" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Michael Goff
             </div>
             <div className={crewDescriptionTestLayoutStyles}>
@@ -303,7 +303,7 @@ export default function Bios() {
                 , covering a variety of issues related to the environment.
               </div>
             </div>
-            <center className="mx-64 grid grid-cols-3 content-center">
+            <center className="mx-0 grid grid-cols-3 content-center md:mx-64">
               <SocialMediaIcon
                 icon="x"
                 hyperLink="https://twitter.com/MichaelKGoff"
@@ -323,7 +323,7 @@ export default function Bios() {
           </div>
 
           <div id="ursula-king" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Ursula King
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -345,7 +345,7 @@ export default function Bios() {
           </div>
 
           <div id="jeff-brousal" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Jeff Brousal
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -366,7 +366,7 @@ export default function Bios() {
           </div>
 
           <div id="lee-nelson" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Lee Nelson
             </div>
             {/* <div className={crewDescriptionTestLayoutStyles}> */}
@@ -395,7 +395,7 @@ export default function Bios() {
               <div className="my-4"></div>
               <div>More details are anticipated soon.</div>
             </div>
-            <center className="mx-64 grid grid-cols-3 content-center">
+            <center className="mx-0 grid grid-cols-3 content-center md:mx-64">
               <SocialMediaIcon
                 icon="linkedin"
                 hyperLink="https://www.linkedin.com/in/lee-nelson-b5701981"
@@ -415,7 +415,7 @@ export default function Bios() {
           </div>
 
           <div id="richard-burd" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Richard Burd
             </div>
             {/* <div className={crewDescriptionTestLayoutStyles}> */}
@@ -453,7 +453,7 @@ export default function Bios() {
               <div>More details are anticipated soon.</div>
             </div>
 
-            <center className="mx-32 grid grid-cols-5 content-center">
+            <center className="mx-0 grid grid-cols-3 content-center md:mx-32 md:grid-cols-5">
               <SocialMediaIcon
                 icon="linkedin"
                 hyperLink="https://www.linkedin.com/in/richardburd/"
@@ -483,7 +483,7 @@ export default function Bios() {
           </div>
 
           <div id="leith-patton" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Leith Patton
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -514,7 +514,7 @@ export default function Bios() {
           </div>
 
           <div id="martha-yanchyshyn" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Martha Yanchyshyn
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -546,7 +546,7 @@ export default function Bios() {
           </div>
 
           <div id="colleen-mclanaghan" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Colleen McLanaghan
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -571,7 +571,7 @@ export default function Bios() {
           </div>
 
           <div id="catherine-murray" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Catherine Murray
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -602,7 +602,7 @@ export default function Bios() {
           </div>
 
           <div id="anna-haislip" className="pt-2">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Anna Haislip
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -629,7 +629,7 @@ export default function Bios() {
           </div>
 
           <div id="andrew-evans" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Andrew Evans
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -648,7 +648,7 @@ export default function Bios() {
           </div>
 
           <div id="a.-c.-(sandy)-loyd" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               A. C. (Sandy) Loyd
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -684,7 +684,7 @@ export default function Bios() {
           </div>
 
           <div id="sherry-force" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Sherry Force
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -719,7 +719,7 @@ export default function Bios() {
           </div>
 
           <div id="joe-shedlock" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Joe Shedlock
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -746,7 +746,7 @@ export default function Bios() {
           </div>
 
           <div id="leslie-allen" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Leslie Allen
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -769,7 +769,7 @@ export default function Bios() {
           </div>
 
           <div id="suzanna-lonce" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Suzanna Lonce
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -793,7 +793,7 @@ export default function Bios() {
           </div>
 
           <div id="randy-nocton" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Randy Nocton
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -830,7 +830,7 @@ export default function Bios() {
           </div>
 
           <div id="sandy-hepler" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Sandy Hepler
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -863,7 +863,7 @@ export default function Bios() {
           </div>
 
           <div id="don-miller" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Don Miller
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -893,7 +893,7 @@ export default function Bios() {
           </div>
 
           <div id="pixie-lewis" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Pixie Lewis
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -910,7 +910,7 @@ export default function Bios() {
           </div>
 
           <div id="connie-collopy" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Connie Collopy
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -929,7 +929,7 @@ export default function Bios() {
           </div>
 
           <div id="connie-kaylor" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Connie Kaylor
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -948,7 +948,7 @@ export default function Bios() {
           </div>
 
           <div id="connie-lehman" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Connie Lehman
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -964,7 +964,7 @@ export default function Bios() {
           </div>
 
           <div id="dan-sweeton" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Dan Sweeton
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -985,7 +985,7 @@ export default function Bios() {
           </div>
 
           <div id="michael-traugot" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Michael Traugot
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -1002,7 +1002,7 @@ export default function Bios() {
           </div>
 
           <div id="ethel-spiller" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Ethel Spiller
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -1021,7 +1021,7 @@ export default function Bios() {
           </div>
 
           <div id="pat-mcalpine" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Pat McAlpine
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -1039,7 +1039,7 @@ export default function Bios() {
           </div>
 
           <div id="myles-jakubowski" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Myles Jakubowski
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">
@@ -1057,7 +1057,7 @@ export default function Bios() {
           </div>
 
           <div id="robert-cox" className="pt-40">
-            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-4xl">
+            <div className="standard-font-1 mt-2 -mb-2 border-b-2 border-zinc-700 text-3xl md:text-4xl">
               Robert Cox
             </div>
             <div className="standard-font-3 my-7 text-justify text-lg">

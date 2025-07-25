@@ -80,7 +80,7 @@ export default function EmailIcon({
   );
 
   return (
-    <div>
+    <div className="pb-8 md:pb-0">
       {anchorLink ? (
         <Link href={anchorLink}>{renderSVG()}</Link>
       ) : hyperLink ? (
