@@ -23,24 +23,24 @@ export default function Methodology() {
   };
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] pb-16 text-zinc-300">
+      <div className="bg-gradient-to-l from-[#aba528] to-[#5e5a16] pb-16 text-zinc-300 md:from-[#948e22] md:to-[#1a1906]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
 
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-8"
+          className="md:rounded-6xl m-4 rounded-3xl bg-neutral-950 p-0 md:m-11 md:p-8"
         >
-          <div className="pt-serif-font-700 my-4 py-4 text-center text-6xl text-[#fcffbf] italic">
+          <div className="pt-serif-font-700 m-0 p-4 text-center text-4xl text-[#fcffbf] italic md:m-4 md:text-7xl">
             Methodology
           </div>
 
           <div id="zero-waste" className="roboto-font-400 mx-4 mb-24 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Zero Waste
             </div>
 
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <div className="mb-8">
                 Internalization of economic, environmental, and health costs and
                 benefits of both material recovery and disposal favor zero
@@ -60,11 +60,11 @@ export default function Methodology() {
           </div>
 
           <div id="key-realizations" className="mx-4 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Key Realizations
             </div>
 
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <div className="mb-8">
                 First, most environmental damage from disposal happens during
                 virgin resource extraction. Far more. On average, roughly 50
@@ -139,9 +139,9 @@ export default function Methodology() {
 
               <div
                 id="nothing"
-                className="my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl"
+                className="my-4 rounded-2xl bg-[#372408] px-2 py-4 text-lg md:text-2xl"
               >
-                <ol className="mx-12 list-outside list-decimal">
+                <ol className="mx-8 list-outside list-decimal md:mx-12">
                   <li id="1" className="pt-3 pb-2">
                     Disposal companies promote this heavily, to divert attention
                     away from more lucrative disposal of commercial wastes.
@@ -186,10 +186,10 @@ export default function Methodology() {
           </div>
 
           <div id="key-must-haves" className="mx-4 pt-4">
-            <div className="mt-20 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Key Must-Haves
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <ol className="mx-6 list-outside list-decimal">
                 <li id="1" className="pt-3 pb-2">
                   All wastes must be processed, even if that only requires
@@ -214,9 +214,12 @@ export default function Methodology() {
 
                   <div
                     id="nothing"
-                    className="my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl"
+                    className="my-4 -ml-4 rounded-2xl bg-[#372408] px-4 py-4 text-lg md:text-2xl"
                   >
-                    <ol id="A" className="list-alpha-upper mx-12 list-outside">
+                    <ol
+                      id="A"
+                      className="list-alpha-upper mx-4 list-outside md:mx-12"
+                    >
                       <li className="pt-4 pb-2">
                         Dry waste sorting/recovery facilities, for both MSW and
                         C&D wastes, typically separately, as C&D sorting systems
@@ -302,9 +305,9 @@ export default function Methodology() {
 
                   <div
                     id="nothing"
-                    className="my-4 rounded-2xl bg-[#372408] py-4 text-2xl"
+                    className="my-4 -ml-4 rounded-2xl bg-[#372408] px-4 py-4 text-lg md:text-2xl"
                   >
-                    <ol className="list-alpha-upper-h mx-8 list-outside">
+                    <ol className="list-alpha-upper mx-4 list-outside md:mx-12">
                       <li id="H" className="pt-4 pb-2">
                         Successful marketing of all recovered commodities --
                         material recovery is measured in internalized value.

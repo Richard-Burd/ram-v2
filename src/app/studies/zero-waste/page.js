@@ -28,22 +28,22 @@ export default function ZeroWaste() {
   };
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] pb-16 text-zinc-300">
+      <div className="bg-gradient-to-l from-[#aba528] to-[#5e5a16] pb-16 text-zinc-300 md:from-[#948e22] md:to-[#1a1906]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
 
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-8"
+          className="md:rounded-6xl m-4 rounded-3xl bg-neutral-950 p-0 md:m-11 md:p-8"
         >
-          <div className="pt-serif-font-700 my-4 py-4 text-center text-6xl text-[#fcffbf] italic">
+          <div className="pt-serif-font-700 m-0 p-4 text-center text-5xl text-[#fcffbf] italic md:m-4 md:text-7xl">
             Zero-Waste
           </div>
           <div id="diversion" className="roboto-font-400 mx-4 mb-24 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Diversion
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <p className="mb-8">
                 <i>RAM</i> supports true zero waste. Two RAM graphics describe
                 maximizing diversion from municipal solid waste -- destinations
@@ -72,10 +72,10 @@ export default function ZeroWaste() {
             </div>
           </div>
           <div id="plans" className="mx-4 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Plans
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <p className="mb-8">
                 Citizens across the U.S. have called for zero waste too,
                 convincing their governments to pay for plans describing how to
@@ -85,11 +85,11 @@ export default function ZeroWaste() {
             </div>
           </div>
           <div id="scam-plan-steps" className="mx-4 mb-24 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Scam Plan Steps
             </div>
-            <div className="my-4 rounded-2xl bg-[#372408] px-2 py-4 text-2xl">
-              <ol className="mx-12 list-outside list-decimal">
+            <div className="my-4 rounded-xl bg-[#372408] px-2 py-4 text-lg md:rounded-2xl md:text-2xl">
+              <ol className="mx-6 list-outside list-decimal md:mx-12">
                 <li id="1" className="">
                   A Scope of Work is assembled by government bureaucrats who
                   aren&apos;t as committed to change as the activists, or if
@@ -128,14 +128,14 @@ export default function ZeroWaste() {
             </div>
           </div>
           <div id="preventative-steps-beforehand" className="mx-4 mb-24 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Preventative Steps Beforehand
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <p className="mb-8">To prevent plan scams as much as possible:</p>
             </div>
-            <div className="my-4 px-2 py-4 text-2xl">
-              <ol className="mx-12 list-outside list-decimal">
+            <div className="my-4 px-2 py-4 text-lg md:text-2xl">
+              <ol className="mx-6 list-outside list-decimal md:mx-12">
                 <li id="1" className="">
                   RAM has tried to explain zero waste methodology in the next
                   page of this website, so activists can read and understand it.
@@ -159,7 +159,7 @@ export default function ZeroWaste() {
                     />
                     ):
                   </p>
-                  <div className="my-4 rounded-2xl bg-[#372408] px-4 py-4">
+                  <div className="-mx-4 my-4 rounded-2xl bg-[#372408] p-0 py-2 md:mx-0 md:p-4">
                     <table>
                       <tbody>
                         <tr id="row-1">
@@ -229,7 +229,7 @@ export default function ZeroWaste() {
                 </li>
                 <li id="4" className="pt-3 pb-2">
                   <p>Other key must-have plan elements include:</p>
-                  <div className="my-4 rounded-2xl bg-[#372408] px-4 py-4">
+                  <div className="-mx-4 my-4 rounded-2xl bg-[#372408] p-0 py-2 md:mx-0 md:p-4">
                     <table>
                       <tbody>
                         <tr id="row-1">
@@ -275,7 +275,7 @@ export default function ZeroWaste() {
                   To save money and eyewash, certain elements consultants
                   typically include in their plans need to be banned, for all
                   plan providers:
-                  <div className="my-4 rounded-2xl bg-[#372408] px-4 py-4">
+                  <div className="-mx-4 my-4 rounded-2xl bg-[#372408] p-0 py-2 md:mx-0 md:p-4">
                     <table>
                       <tbody>
                         <tr id="row-1">

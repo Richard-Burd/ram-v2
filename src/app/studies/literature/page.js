@@ -23,22 +23,22 @@ export default function Literature() {
   };
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] pb-16 text-zinc-300">
+      <div className="bg-gradient-to-l from-[#aba528] to-[#5e5a16] pb-16 text-zinc-300 md:from-[#948e22] md:to-[#1a1906]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
 
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-8"
+          className="md:rounded-6xl m-4 rounded-3xl bg-neutral-950 p-0 md:m-11 md:p-8"
         >
-          <div className="pt-serif-font-700 my-4 py-4 text-center text-6xl text-[#fcffbf] italic">
+          <div className="pt-serif-font-700 m-0 p-4 text-center text-5xl text-[#fcffbf] italic md:m-4 md:text-6xl">
             Literature
           </div>
           <div id="reports" className="roboto-font-400 mx-4 mb-24 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Reports
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <div className="mb-8">
                 Robin F. Ingenthron, Director of Recycling Programs, Division of
                 Solid Waste Management, and Willa S. Kuh, Director,
@@ -69,10 +69,10 @@ export default function Literature() {
           </div>
 
           <div id="papers" className="mx-4 mb-24 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Papers
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <div className="mb-8">
                 Human Space Program, 2021.{" "}
                 <i>
@@ -86,10 +86,10 @@ export default function Literature() {
           </div>
 
           <div id="periodicals" className="mx-4 mb-24 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Periodicals
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <div className="periodical-section mb-12">
                 <div className="section-title">
                   <TextLink
@@ -159,7 +159,7 @@ export default function Literature() {
                   />
                 </div>
 
-                <div className="ml-12">Specialty: Landfilling</div>
+                <div className="ml-12 pb-6">Specialty: Landfilling</div>
               </div>
             </div>
           </div>

@@ -10,7 +10,7 @@ export default function LongerHistory() {
           id="title-and-text-box"
           className="md:rounded-6xl m-4 rounded-3xl bg-neutral-950 p-0 md:m-11 md:p-8"
         >
-          <div className="pt-serif-font-700 m-4 p-4 text-center text-7xl text-[#ffe9bf] italic">
+          <div className="pt-serif-font-700 m-0 p-4 text-center text-4xl text-[#ffe9bf] italic md:m-4 md:text-7xl">
             Longer History
           </div>
           <div className="roboto-font-400 m-0 p-4 pt-10 text-lg md:m-4 md:text-2xl">

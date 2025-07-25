@@ -22,23 +22,23 @@ export default function Travels() {
   };
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#948e22] to-[#1a1906] pb-16 text-zinc-300">
+      <div className="bg-gradient-to-l from-[#aba528] to-[#5e5a16] pb-16 text-zinc-300 md:from-[#948e22] md:to-[#1a1906]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
 
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-8"
+          className="md:rounded-6xl m-4 rounded-3xl bg-neutral-950 p-0 md:m-11 md:p-8"
         >
-          <div className="pt-serif-font-700 my-4 py-4 text-center text-6xl text-[#fcffbf] italic">
+          <div className="pt-serif-font-700 m-0 p-4 text-center text-5xl text-[#fcffbf] italic md:m-4 md:text-6xl">
             Travels
           </div>
 
           <div id="value" className="mx-4 mb-24 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Value
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <div className="mb-8">
                 Seeing how solid waste facilities operate in person causes
                 observations to be made, and questions to arise, that never
@@ -50,10 +50,10 @@ export default function Travels() {
           </div>
 
           <div id="scheduling-tours" className="mx-4 mb-24 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Scheduling Tours
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <div className="mb-8">
                 Ideas about what facilities to tour have come from many sources.
                 Industry periodicals, ads in those, regulators, consultants,
@@ -70,10 +70,10 @@ export default function Travels() {
           </div>
 
           <div id="remote-logistics" className="mx-4 mb-24 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Remote Logistics
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <div className="mb-8">
                 Since the Southern U.S. has had relatively few notable
                 facilities compared with other regions, <i>RAM</i> members have
@@ -95,19 +95,21 @@ export default function Travels() {
           </div>
 
           <div id="some-long-trips" className="mx-4 mb-24 pt-4">
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-3xl font-bold md:text-4xl">
               Some Long Trips
             </div>
-            <div className="text-2xl">
+            <div className="text-lg md:text-2xl">
               <div className="mb-8">
                 Facilities toured in the following states, provinces, counties,
                 or cities:
               </div>
-              <div className="rounded-2xl bg-[#372408] px-2 py-4 text-2xl">
-                <table className="m-4 border-separate border-spacing-y-8">
+              <div className="rounded-2xl bg-[#372408] px-2 py-4 text-lg md:text-2xl">
+                <table className="m-0 border-separate border-spacing-y-8 md:m-4">
                   <tbody>
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1989</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1989
+                      </td>
                       <td className="description align-top">
                         New York, Connecticut, Rhode Island, Massachusetts, and
                         New Jersey (5 facilities total + conference, in 10 days)
@@ -115,7 +117,9 @@ export default function Travels() {
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1989</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1989
+                      </td>
                       <td className="description align-top">
                         California (Bay Area) and Washington (34 facilities
                         total, in 15 days)
@@ -123,49 +127,63 @@ export default function Travels() {
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1990</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1990
+                      </td>
                       <td className="description align-top">
                         Cook County (Crestwood), Illinois
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1990</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1990
+                      </td>
                       <td className="description align-top">
                         Gibson County (Humboldt), Tennessee
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1990</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1990
+                      </td>
                       <td className="description align-top">
                         Robertson County (Springfield), Tennessee
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1990</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1990
+                      </td>
                       <td className="description align-top">
                         Lewis County (Lewisburg), Tennessee
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1990</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1990
+                      </td>
                       <td className="description align-top">
                         Williamson County (Franklin), Tennessee
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1991</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1991
+                      </td>
                       <td className="description align-top">
                         Florida and Georgia (25 facilities total, in 8 days)
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1991</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1991
+                      </td>
                       <td className="description align-top">
                         South Dakota, Iowa, Minnesota, Wisconsin, Illinois,
                         Ontario, Canada, New York, and Ohio (25 facilities
@@ -174,21 +192,27 @@ export default function Travels() {
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1992</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1992
+                      </td>
                       <td className="description align-top">
                         Fairfax County (Lorton), Virginia
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1992</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1992
+                      </td>
                       <td className="description align-top">
                         Sumner County (Gallatin), Tennessee
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1992</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1992
+                      </td>
                       <td className="description align-top">
                         Windsor, Maine (temporary facility, Common Ground
                         Country Fair)
@@ -196,7 +220,9 @@ export default function Travels() {
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1992</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1992
+                      </td>
                       <td className="description align-top">
                         Ontario, Canada, Michigan, Ohio, Wisconsin, Minnesota,
                         Nebraska, and Iowa (16 facilities total + conference + 3
@@ -205,7 +231,7 @@ export default function Travels() {
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
                         1992 & 1993
                       </td>
                       <td className="description align-top">
@@ -214,21 +240,27 @@ export default function Travels() {
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1994</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1994
+                      </td>
                       <td className="description align-top">
                         Williamson County (Nolensville and Franklin), Tennessee
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1994</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1994
+                      </td>
                       <td className="description align-top">
                         Jackson County (Gainesboro), Tennessee
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1996</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1996
+                      </td>
                       <td className="description align-top">
                         Michigan and Ontario, Canada (14 facilities total, in 9
                         days)
@@ -236,49 +268,63 @@ export default function Travels() {
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">1997</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        1997
+                      </td>
                       <td className="description align-top">
                         Morgan County, Tennessee
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">2000</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        2000
+                      </td>
                       <td className="description align-top">
                         San Jose and Sunnyvale, California
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">2000</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        2000
+                      </td>
                       <td className="description align-top">
                         Wayne County (Livonia), Michigan
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">2004</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        2004
+                      </td>
                       <td className="description align-top">
                         Warren County (McMinnville), Tennessee
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">2011</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        2011
+                      </td>
                       <td className="description align-top">
                         Sevier County (Sevierville), Tennessee
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">2012</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        2012
+                      </td>
                       <td className="description align-top">
                         (Western) Cheatham County, Tennessee
                       </td>
                     </tr>
 
                     <tr className="table-row">
-                      <td className="min-w-[90px] pr-3 align-top">2013</td>
+                      <td className="min-w-[30px] pr-3 align-top md:min-w-[90px]">
+                        2013
+                      </td>
                       <td className="description align-top">
                         Rutherford County (LaVergne), Tennessee
                       </td>
@@ -286,6 +332,7 @@ export default function Travels() {
                   </tbody>
                 </table>
               </div>
+              <div className="pt-4 text-2xl text-white"></div>
             </div>
           </div>
         </div>
