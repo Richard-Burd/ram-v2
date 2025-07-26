@@ -4,19 +4,19 @@ import { primaryHierarchyProps } from "@/app/successes/page";
 export default function LongHistory() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] pb-16 text-zinc-300">
+      <div className="bg-gradient-to-l from-[#2d6ec2] to-[#173563] pb-16 text-zinc-300 md:from-[#225394] md:to-[#060e1a]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-8"
+          className="md:rounded-6xl m-5 rounded-3xl bg-neutral-950 p-4 md:m-11 md:p-8"
         >
-          <div className="pt-serif-font-700 my-4 py-4 text-center text-5xl text-[#bfe6ff] italic">
-            <div className="pb-4">Longer History of</div>
-            <div>
+          <div className="pt-serif-font-700 my-4 py-4 text-center text-3xl text-[#bfe6ff] italic md:text-5xl">
+            <div className="pb-0 md:pb-4">Longer History of</div>
+            <div className="pb-0 md:pb-4">
               Some <i>RAM</i> Successes
             </div>
           </div>
-          <div className="roboto-font-400 mx-12 text-2xl">
+          <div className="roboto-font-400 mx-8 text-lg md:mx-12 md:text-2xl">
             <ol className="list-outside list-decimal">
               <li id="1" className="py-5">
                 Set a high standard for studying issues by touring over 200

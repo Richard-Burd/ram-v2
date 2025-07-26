@@ -5,23 +5,23 @@ import { primaryHierarchyProps } from "@/app/successes/page";
 export default function CurrentCampaigns() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] pb-16 text-zinc-300">
+      <div className="bg-gradient-to-l from-[#2d6ec2] to-[#173563] pb-16 text-zinc-300 md:from-[#225394] md:to-[#060e1a]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-8"
+          className="md:rounded-6xl m-5 rounded-3xl bg-neutral-950 p-4 md:m-11 md:p-8"
         >
           <div className="pt-serif-font-700 my-4 py-4 text-center text-5xl text-[#bfe6ff] italic">
             Current Campaigns
           </div>
-          <div className="roboto-font-400 mx-4 text-2xl">
-            <p className="mb-8">
+          <div className="roboto-font-400 mx-0 text-lg md:mx-4 md:text-2xl">
+            <p className="mb-8 text-lg md:text-2xl">
               First, <i>RAM</i> needs to maintain what it has proven good at --
               delivering solutions, as needs arise. Continue with two primary
               focuses that have worked so far:
             </p>
-            <div className="m-4 rounded-2xl bg-[#0f1e47] px-2 py-4">
-              <ol className="mx-12 list-outside list-decimal">
+            <div className="mt-8 rounded-2xl bg-[#0f1e47] px-4 py-6 text-lg md:px-12 md:text-2xl">
+              <ol className="mx-4 list-outside list-decimal md:mx-12">
                 <li id="1" className="">
                   Figuring out -- and communicating -- how to{" "}
                   <b>minimize disposal</b>, the best way possible, in line with{" "}

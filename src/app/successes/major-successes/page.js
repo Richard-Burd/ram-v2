@@ -18,12 +18,12 @@ export const secondaryHierarchyProps = {
 export default function MajorSuccesses() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#225394] to-[#060e1a] pb-16 text-zinc-300">
+      <div className="bg-gradient-to-l from-[#2d6ec2] to-[#173563] pb-16 text-zinc-300 md:from-[#225394] md:to-[#060e1a]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-8"
+          className="md:rounded-6xl m-5 rounded-3xl bg-neutral-950 p-4 md:m-11 md:p-8"
         >
           <div className="pt-serif-font-700 my-4 py-4 text-center text-5xl text-[#bfe6ff] italic">
             Major Successes
@@ -31,32 +31,37 @@ export default function MajorSuccesses() {
 
           <div
             id="internalizing-externalized-material-recovery-benefits-and-disposal-costs"
-            className="roboto-font-400 mx-4 mb-24 pt-4 text-2xl"
+            className="roboto-font-400 mx-0 mb-24 pt-4 text-2xl md:mx-4"
           >
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-2xl font-bold md:text-4xl">
               Internalizing externalized material recovery benefits and disposal
               costs
             </div>
-            <p>
-              While this may sound boring, it is probably <i>RAM&apos;s</i> most
-              important, long-lasting, and far-reaching achievement. Parts of it
-              extend back before <i>RAM</i> formed, and parts played major
-              underlying roles in success numbers 4, 7, 19-21, and 23 on the
-              preceding{" "}
-              <TextLink text="Brief History" link="/successes/brief-history" />{" "}
-              and{" "}
-              <TextLink
-                text="Longer History"
-                link="/successes/longer-history"
-              />{" "}
-              pages, and what is on the subsequent{" "}
-              <TextLink
-                text="Current Campaigns"
-                link="/successes/current-campaigns"
-              />{" "}
-              page.
-            </p>
-            <div className="mt-8 rounded-2xl bg-[#0f1e47] px-12 py-6">
+            <div className="text-lg md:text-2xl">
+              <p>
+                While this may sound boring, it is probably <i>RAM&apos;s</i>{" "}
+                most important, long-lasting, and far-reaching achievement.
+                Parts of it extend back before <i>RAM</i> formed, and parts
+                played major underlying roles in success numbers 4, 7, 19-21,
+                and 23 on the preceding{" "}
+                <TextLink
+                  text="Brief History"
+                  link="/successes/brief-history"
+                />{" "}
+                and{" "}
+                <TextLink
+                  text="Longer History"
+                  link="/successes/longer-history"
+                />{" "}
+                pages, and what is on the subsequent{" "}
+                <TextLink
+                  text="Current Campaigns"
+                  link="/successes/current-campaigns"
+                />{" "}
+                page.
+              </p>
+            </div>
+            <div className="mt-8 rounded-2xl bg-[#0f1e47] px-4 py-6 text-lg md:px-8 md:px-12 md:text-2xl">
               <p className="mb-8">
                 Acquaintance with the concept for this -- and the application of
                 it -- came as a result of John van der Harst doing work for the
@@ -80,7 +85,7 @@ export default function MajorSuccesses() {
                 Thieves and frauds.
               </p>
             </div>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               Back in Nashville, while planning for the second wet/dry pilot,
               John was ambushed by four lumber-and-baseball bat-wielding thugs,
               after being warned by a national disposal company manager that
@@ -94,16 +99,16 @@ export default function MajorSuccesses() {
               primary researcher. With this added to a long history of
               mismanagement in that group, John left.
             </p>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               The attack confirmed the effectiveness of his work exposing sham
               recycling promoted by the disposal industry to preserve their
               disposal business.
             </p>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               Later, John found out from a lobbyist that the waste company
               manager subsequently was promoted.
             </p>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               After two traumatic leavings within a few months of each other,
               John seriously evaluated other affiliation options. All other
               groups would not allow John to upgrade their previous ineffective
@@ -112,7 +117,7 @@ export default function MajorSuccesses() {
               effort. Often, tough choices faced criticism no matter what
               direction was chosen.
             </p>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               After producing <i>RAM&apos;s</i> first newsletter, John applied
               economic internalization to incinerator expansion in Nashville --
               for a facility which then touted the best economic performance of
@@ -127,13 +132,13 @@ export default function MajorSuccesses() {
 
           <div
             id="first-state-soil-based-compost-quality-standards-as-an-incentive-class"
-            className="mx-4 mb-24 pt-4 text-2xl"
+            className="mx-0 mb-24 pt-4 text-2xl md:mx-4"
           >
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-2xl font-bold md:text-4xl">
               First state soil-based compost quality standards as an incentive
               class
             </div>
-            <p className="mb-8">
+            <p className="mb-8 text-lg md:text-2xl">
               This campaign battled what was then becoming a nationwide wave of
               facilities producing bad quality composts, which threatened the
               image and popularity of composting. <i>RAM&apos;s</i> John van der
@@ -142,7 +147,7 @@ export default function MajorSuccesses() {
               John had collected, kept, and labeled samples of these in glass
               jars.
             </p>
-            <p>
+            <p className="mb-8 text-lg md:text-2xl">
               In addition to what has been described on the{" "}
               <TextLink text="Brief History" link="/successes/brief-history" />{" "}
               and{" "}
@@ -157,7 +162,7 @@ export default function MajorSuccesses() {
               that a wide variety of citizens could make sense of them was
               important. Two rounds of commenting took a lot of time.
             </p>
-            <div className="mt-8 rounded-2xl bg-[#0f1e47] px-12 py-6">
+            <div className="mt-8 rounded-2xl bg-[#0f1e47] px-4 py-6 text-lg md:px-12 md:text-2xl">
               <p className="mb-8">
                 A brief primer: For heavy metal levels, soil-based standards are
                 typically derived by multiplying levels found in typical soils
@@ -190,7 +195,7 @@ export default function MajorSuccesses() {
                 mercury readily. But who eats mushrooms?
               </p>
             </div>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               The lower-quality advocates in government/industry eventually paid
               for Rufus Cheney, of USDA, to address the board. A composting
               advocate had commented how ambitious Rufus seemed to be, as an
@@ -206,13 +211,13 @@ export default function MajorSuccesses() {
 
           <div
             id="first-voluntary-closure-of-a-large,-financially-viable,-wte-incinerator-with-up-to-date-apc-equipment"
-            className="mx-4 mb-24 pt-4 text-2xl"
+            className="mx-0 mb-24 pt-4 text-2xl md:mx-4"
           >
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-2xl font-bold md:text-4xl">
               First voluntary closure of a large, financially-viable, WTE
               incinerator with up-to-date air pollution control equipment
             </div>
-            <p className="mb-8">
+            <p className="mb-8 text-lg md:text-2xl">
               Some more details not found on the{" "}
               <TextLink text="Brief History" link="/successes/brief-history" />{" "}
               and{" "}
@@ -234,27 +239,27 @@ export default function MajorSuccesses() {
               (AAR), after late 1993, assured Metro that no more ash landfill
               expansion would ever be required.
             </p>
-            <p className="mb-8">
+            <p className="mb-8 text-lg md:text-2xl">
               When incineration was proposed in Oakland County, Michigan, NTTC
               was used as the example to look at. Its economics were the best in
               the industry.
             </p>
-            <p className="mb-8">
+            <p className="mb-8 text-lg md:text-2xl">
               Amid a massive search for a new local landfill, recycling became a
               topic, but mostly, city leaders backed expansion of incineration.
               Both at NTTC, and two separate additional ones.
             </p>
-            <p className="mb-8">
+            <p className="mb-8 text-lg md:text-2xl">
               One by one, expansion plans were thwarted. Barely. But expansion
               still had a lot of support.{" "}
             </p>
-            <p className="mb-8">
+            <p className="mb-8 text-lg md:text-2xl">
               Then, in front of this expansion backdrop, picture <i>RAM</i>{" "}
               coming out with a plan to close the incinerator. What?? Nobody saw
               that coming. Not even the other recycling, solid waste, and
               anti-incinerator advocacy groups.
             </p>
-            <p className="mb-8">
+            <p className="mb-8 text-lg md:text-2xl">
               A multi-pronged campaign ensued which accumulated enough support
               for closure that Metro Council leadership (the Chair -- the Vice
               Mayor -- following the pro-incinerator Mayor), 3 years later,
@@ -264,7 +269,7 @@ export default function MajorSuccesses() {
               glass doors. <i>RAM</i> had also tried to achieve tighter
               standards than the USEPA allowed. Many pages of comments.
             </p>
-            <p className="mb-8">
+            <p className="mb-8 text-lg md:text-2xl">
               After a slim majority vote to upgrade NTTC&apos;s APC equipment,
               to allow it to keep going past 2000, the mayor&apos;s arrogant
               chief policy guru berated <i>RAM&apos;s</i> John van der Harst in
@@ -272,7 +277,7 @@ export default function MajorSuccesses() {
               exclaimed, &quot;Thermal is here to stay... It will never be shut
               down.&quot; No one there came to John&apos;s defense.
             </p>
-            <p className="mb-8">
+            <p className="mb-8 text-lg md:text-2xl">
               One meeting later, an emboldened AAR sued <i>RAM</i> and John,
               separately, claiming tortious interference with legitimate
               business interests. Papers were served at the Council meeting.
@@ -281,7 +286,7 @@ export default function MajorSuccesses() {
               heavy lifting on that issue previously. Hence a convenient,
               simple, isolated SLAPP target.
             </p>
-            <p className="mb-8">
+            <p className="mb-8 text-lg md:text-2xl">
               After 3 1/4 years were taken out of John&apos;s and much of
               Carl&apos;s, Sherry Sloan&apos;s and others&apos; lives, amid
               multiple legal filings, final papers were mailed from the airport,
@@ -290,7 +295,7 @@ export default function MajorSuccesses() {
               John&apos;s new mess was 8 months dealing with a packed house and
               family. Wide distribution. Lots of recycling.
             </p>
-            <p className="mb-8">
+            <p className="mb-8 text-lg md:text-2xl">
               5 years after John was berated over a seemingly impossible
               outcome, Metro Council voted to close NTTC. AAR&apos;s contract
               was ended. Temporary gas boilers used to transition to the planned
@@ -299,7 +304,7 @@ export default function MajorSuccesses() {
               point. One long rushed weekend, plus one business day, were all
               buildings had to endure lower HVAC function.
             </p>
-            <p className="mb-8">
+            <p className="mb-8 text-lg md:text-2xl">
               A few months after NTTC closed, John noticed other distance
               runners besides himself for the first time in East Nashville. And
               bicyclists. Previously few of those ventured there, downwind of
@@ -313,7 +318,7 @@ export default function MajorSuccesses() {
               far away as Nolensville and Culleoka. His East Nasty of the Week
               bio called John &quot;the original East Nasty.&quot;
             </p>
-            <p className="mb-8">
+            <p className="mb-8 text-lg md:text-2xl">
               Ascend Amphitheater now stands where NTTC once did. Musicians
               perform where once the Walking Incinerator and Walking Ashfill
               used to -- dripping imitation quench water and leachate in their
@@ -324,12 +329,12 @@ export default function MajorSuccesses() {
 
           <div
             id="no-more-treated-incinerator-ash-outside-landfills"
-            className="mx-4 mb-24 pt-4 text-2xl"
+            className="mx-0 mb-24 pt-4 text-2xl md:mx-4"
           >
-            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-4xl font-bold">
+            <div className="mt-2 mb-2 border-b-2 border-zinc-300 pb-1 text-2xl font-bold md:text-4xl">
               No more treated incinerator ash outside landfills
             </div>
-            <p>
+            <p className="mb-8 text-lg md:text-2xl">
               What was included on the preceding{" "}
               <TextLink text="Brief History" link="/successes/brief-history" />{" "}
               and{" "}
@@ -342,8 +347,8 @@ export default function MajorSuccesses() {
               important to know is 1) the nature of incinerator ash, and 2) what
               treating it can lead to.
             </p>
-            <div className="mt-8 rounded-2xl bg-[#0f1e47] px-12 py-6">
-              <ol className="mx-2 list-outside list-decimal">
+            <div className="mt-8 rounded-2xl bg-[#0f1e47] px-4 py-6 text-lg md:px-12 md:text-2xl">
+              <ol className="mx-2 ml-4 list-outside list-decimal md:ml-0">
                 <li id="1" className="mb-16">
                   <p className="mb-4">
                     Solid waste is burned to reduce volume. While landfilling
@@ -397,7 +402,7 @@ export default function MajorSuccesses() {
               </ol>
             </div>
 
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               As those notebooks filled, tough confrontations occurred. Sherry
               Sloan was cornered in a convenience store, and warned she could be
               shot if she continued. The store clerk denied witnessing this to
@@ -413,7 +418,7 @@ export default function MajorSuccesses() {
               truck, and the roadway behind it (a common occurrence) cracked her
               windshield.
             </p>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               <i>RAM</i> tried to suggest ways for AAR to improve their product.
               A cordial meeting was facilitated by Metro. No deal. <i>RAM</i>{" "}
               persuaded Metro to separate fly and bottom ash, only allowing AAR
@@ -426,7 +431,7 @@ export default function MajorSuccesses() {
               to ask <i>RAM</i> about it. That hurt AAR&apos;s reputation even
               further.
             </p>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               The lawsuits filed by AAR and its affiliates came amid the
               regulatory drama. Initial, clueless state staff&apos;s negligence
               enabled lax permits, hid violations, and denied enforcement. One
@@ -439,7 +444,7 @@ export default function MajorSuccesses() {
               a Republican-appointed Chancellor not inclined to believe
               businesses would sue frivolously.
             </p>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               A kind-but-very-direct, environmentally-experienced attorney
               suggested by the Southern Poverty Law Center, Mary Parker, brought
               realism to bear, amid limited options, including no prospect of
@@ -450,12 +455,12 @@ export default function MajorSuccesses() {
               If John talked too much about the issue, that risked this becoming
               a dispute over the issue -- far more complex, and costly, legally.
             </p>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               John put all of the responsibility on himself, to spare other{" "}
               <i>RAM</i> personnel. AAR accepted that, gaining the image of its
               opponent appearing smaller.
             </p>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               Mary recruited help from attorney Stacy Gibson, an associate she
               knew was interested in First Amendment issues. John talked with an
               expert on SLAPPs at the University of Denver. Carl Evertson
@@ -464,7 +469,7 @@ export default function MajorSuccesses() {
               must-read on this topic. Stacy left that book fringed with post-it
               strips. Its legal citations saved a lot of time.
             </p>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               At the first hearing, Mary was able to show enough photos to
               establish need, an important component of the malice-standard
               checklist. Chancellor Lyle -- thorough, but lacking evidence --
@@ -473,7 +478,7 @@ export default function MajorSuccesses() {
               John. One-sided. More time consumed -- one of the very purposes of
               filing SLAPP suits.
             </p>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               Along the way, a long-time self-promoter filed a
               Friend-of-the-Court Brief, representing himself in court.
               Chancellor Lyle questioned his purpose, clearly intending to
@@ -489,7 +494,7 @@ export default function MajorSuccesses() {
               Mary&apos;s bio is in several Marquis Who&apos;s Who reference
               books, as is John&apos;s.
             </p>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               Chancellor Lyle eventually ruled against AAR, with prejudice,
               meaning AAR could not appeal further. She still refused to call it
               a SLAPP suit, nullifying the use of a state SLAPP suit law passed
@@ -508,7 +513,7 @@ export default function MajorSuccesses() {
               settlement decision. All activists have personal lives. Not just
               those carrying light loads.
             </p>
-            <p className="mt-8">
+            <p className="mt-8 text-lg md:text-2xl">
               More detailed accounts of <i>RAM&apos;s</i> successes on this
               issue in other states, plus another success related to it, remain
               under development. <i>RAM</i> is proud of these. But, they are
