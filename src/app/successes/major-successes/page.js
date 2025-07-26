@@ -61,7 +61,7 @@ export default function MajorSuccesses() {
                 page.
               </p>
             </div>
-            <div className="mt-8 rounded-2xl bg-[#0f1e47] px-4 py-6 text-lg md:px-8 md:px-12 md:text-2xl">
+            <div className="mt-8 rounded-2xl bg-[#0f1e47] px-4 py-6 text-lg md:px-12 md:text-2xl">
               <p className="mb-8">
                 Acquaintance with the concept for this -- and the application of
                 it -- came as a result of John van der Harst doing work for the
