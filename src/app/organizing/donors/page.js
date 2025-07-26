@@ -21,23 +21,23 @@ export default function Donors() {
     "columns-1 md:columns-2 lg:columns-3 my-7 standard-font-3 text-justify text-lg";
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] pb-72 text-zinc-300">
+      <div className="bg-gradient-to-l from-[#6824c6] to-[#271262] pb-72 text-zinc-300 md:from-[#591fab] md:to-[#160a36]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-6"
+          className="md:rounded-6xl m-4 rounded-3xl bg-neutral-950 p-3 md:m-11 md:p-6"
         >
           <div className="pt-serif-font-700 m-4 mt-8 p-4 text-center text-7xl text-[#d4bfff] italic">
             Donors
           </div>
-          <div className="roboto-font-400 container mx-auto px-4">
-            <div id="participation" className="mx-8 my-8 text-2xl">
-              <div className="title text-4xl font-semibold underline">
+          <div className="roboto-font-400 container mx-auto px-0 md:px-4">
+            <div id="participation" className="mx-2 my-8 text-2xl md:mx-8">
+              <div className="title text-2xl font-semibold underline md:text-4xl">
                 Participation
               </div>
               <div className="paragraph">
-                <p className="my-4 rounded-3xl bg-[#211052] p-4">
+                <p className="my-4 rounded-3xl bg-[#211052] p-4 text-lg md:text-2xl">
                   This represents irreplaceable time, and is the most
                   appreciated donation. The list is long, and partly for that
                   reason, currently remains under development. <i>RAM</i>{" "}
@@ -45,12 +45,15 @@ export default function Donors() {
                 </p>
               </div>
             </div>
-            <div id="expenses-covered" className="mx-8 my-14 text-2xl">
-              <div className="title text-4xl font-semibold underline">
+            <div
+              id="expenses-covered"
+              className="mx-2 my-8 text-lg md:mx-8 md:text-2xl"
+            >
+              <div className="title text-2xl font-semibold underline md:text-4xl">
                 Expenses covered
               </div>
               <div className="paragraph">
-                <p className="my-4 rounded-3xl bg-[#211052] p-4">
+                <p className="my-4 rounded-3xl bg-[#211052] p-4 text-lg md:text-2xl">
                   The point where a person deserves to be listed here is
                   subjective. Here is a list of some of these who have given a
                   lot:
@@ -108,8 +111,11 @@ export default function Donors() {
               </div>
             </div>
 
-            <div id="monetary-gifts" className="mx-8 my-14 text-2xl">
-              <div className="title text-4xl font-semibold underline">
+            <div
+              id="monetary-gifts"
+              className="mx-2 my-8 text-lg md:mx-8 md:text-2xl"
+            >
+              <div className="title text-2xl font-semibold underline md:text-4xl">
                 Monetary gifts
               </div>
               <div className="paragraph">

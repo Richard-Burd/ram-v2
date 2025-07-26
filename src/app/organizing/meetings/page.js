@@ -19,18 +19,18 @@ export const metadata = {
 export default function Contacts() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] pb-72 text-zinc-300">
+      <div className="bg-gradient-to-l from-[#6824c6] to-[#271262] pb-72 text-zinc-300 md:from-[#591fab] md:to-[#160a36]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <FragmentIdentifierNavbar {...secondaryHierarchyProps} />
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-6"
+          className="md:rounded-6xl m-4 rounded-3xl bg-neutral-950 p-3 md:m-11 md:p-6"
         >
-          <div className="pt-serif-font-700 m-4 mt-8 p-4 text-center text-7xl text-[#d4bfff] italic">
+          <div className="pt-serif-font-700 m-0 mt-8 p-4 text-center text-5xl text-[#d4bfff] italic md:m-4 md:text-7xl">
             Meetings
           </div>
-          <div className="roboto-font-400 container mx-auto px-4">
-            <div id="ram" className="mx-8 my-8 text-2xl">
+          <div className="roboto-font-400 container px-1 md:px-4">
+            <div id="ram" className="mx-0 my-8 text-lg md:mx-8 md:text-2xl">
               <div className="title font-semibold underline">
                 <i>RAM</i> Meeting Locations to date
               </div>
@@ -82,7 +82,10 @@ export default function Contacts() {
                 </p>
               </div>
             </div>
-            <div id="coalition-meetings" className="mx-8 my-14 text-2xl">
+            <div
+              id="coalition-meetings"
+              className="mx-0 my-8 text-lg md:mx-8 md:text-2xl"
+            >
               <div className="title font-semibold underline">
                 Meeting locations for Coalitions RAM was a part of
               </div>
@@ -119,7 +122,10 @@ export default function Contacts() {
                 </p>
               </div>
             </div>
-            <div id="documents-for-these" className="mx-8 my-14 text-2xl">
+            <div
+              id="documents-for-these"
+              className="mx-0 my-8 text-lg md:mx-8 md:text-2xl"
+            >
               <div className="title font-semibold underline">
                 Documents related to these meetings
               </div>
@@ -127,7 +133,7 @@ export default function Contacts() {
                 <p className="mb-3">
                   Agendas and minutes/sign-in sheets, where applicable:
                 </p>
-                <p className="mb-3">
+                <p className="mb-3 pb-8">
                   Images for these are expected to appear here soon.
                 </p>
               </div>

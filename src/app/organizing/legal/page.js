@@ -10,17 +10,17 @@ export const metadata = {
 export default function Legal() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#591fab] to-[#160a36] pb-72 text-zinc-300">
+      <div className="bg-gradient-to-l from-[#6824c6] to-[#271262] pb-72 text-zinc-300 md:from-[#591fab] md:to-[#160a36]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-6"
+          className="md:rounded-6xl m-4 rounded-3xl bg-neutral-950 p-3 md:m-11 md:p-6"
         >
           <div className="pt-serif-font-700 m-4 mt-8 p-4 text-center text-7xl text-[#d4bfff] italic">
             Legal
           </div>
           <div className="roboto-font-400 container mx-auto px-4">
-            <div id="section-1" className="mx-8 my-8 text-2xl">
+            <div id="section-1" className="my-8 text-lg md:mx-8 md:text-2xl">
               <div className="title font-semibold underline">
                 Annual Reports
               </div>
@@ -33,7 +33,7 @@ export default function Legal() {
               </div>
             </div>
 
-            <div id="section-2" className="mx-8 my-8 text-2xl">
+            <div id="section-2" className="my-8 text-lg md:mx-8 md:text-2xl">
               <div className="title font-semibold underline">
                 Tax information
               </div>
