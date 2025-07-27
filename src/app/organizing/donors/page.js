@@ -17,8 +17,6 @@ export const metadata = {
 };
 
 export default function Donors() {
-  const crewDescriptionTestLayoutStyles =
-    "columns-1 md:columns-2 lg:columns-3 my-7 standard-font-3 text-justify text-lg";
   return (
     <div>
       <div className="bg-gradient-to-l from-[#6824c6] to-[#271262] pb-72 text-zinc-300 md:from-[#591fab] md:to-[#160a36]">
