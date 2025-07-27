@@ -7,14 +7,14 @@ import Document from "@/components/Document";
 export default function InvitationsForEducationSessions() {
   return (
     <div>
-      <div className="bg-gradient-to-l from-[#088723] to-[#021a07] pb-72">
+      <div className="bg-gradient-to-l from-[#0aa32b] to-[#075c1a] pb-4 md:from-[#088723] md:to-[#021a07]">
         <SecondaryNavbar {...primaryHierarchyProps} />
         <TertiaryNavbar {...secondaryHierarchyProps} />
         <div
           id="title-and-text-box"
-          className="rounded-6xl m-11 bg-neutral-950 p-8"
+          className="md:rounded-6xl m-4 rounded-3xl bg-neutral-950 p-8 md:m-11"
         >
-          <div className="pt-serif-font-700 p-8 text-center text-7xl text-[#c2ffbf] italic">
+          <div className="pt-serif-font-700 p-0 text-center text-4xl text-[#c2ffbf] italic md:p-8 md:text-7xl">
             Invitations for Education Sessions
           </div>
 
