@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Construction() {
   return (
-    <div>
+    <div className="text-zinc-900">
       <div className="mt-20 text-center text-4xl font-semibold">
         🚧 This website is under construction 🚧
       </div>
