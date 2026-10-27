@@ -461,7 +461,7 @@ export default function Bios() {
               />
               <SocialMediaIcon
                 icon="home"
-                hyperLink="https://richard-burd.github.io/"
+                hyperLink="https://richardburd.dev"
                 {...socialMediaIconProps}
               />
               <SocialMediaIcon
